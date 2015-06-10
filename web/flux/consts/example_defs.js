@@ -1,3 +1,4 @@
+import sc from './index.js';
 
 const K_EXAMPLES_SOURCE_ROOT = 'https://github.com/istarkov/google-map-react-examples/blob/master/web/flux/components/examples/';
 
@@ -55,12 +56,12 @@ const examples = Object.keys(exampleDefs)
   .reduce((r, k) => ((r[k] = k), r), {});
 
 Object.keys(exampleDefs).reduce((prev, current) => {
-  exampleDefs[prev].next = '/map/' + current;
+  exampleDefs[prev].next = sc.K_SERVER_PATH + '/map/' + current;
   return current;
 });
 
 Object.keys(exampleDefs).reduceRight((prev, current) => {
-  exampleDefs[prev].prev = '/map/' + current;
+  exampleDefs[prev].prev = sc.K_SERVER_PATH + '/map/' + current;
   return current;
 });
 

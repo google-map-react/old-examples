@@ -19,8 +19,8 @@ app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(methodOverride());
 
-app.use('/_assets', express.static(path.join(__dirname, '..', 'build/public')));
-app.use('/assets', express.static(path.join(__dirname, '..', 'build/public/assets')));
+app.use(config.K_SERVER_PATH + '/w_assets', express.static(path.join(__dirname, '..', 'build/public')));
+app.use(config.K_SERVER_PATH + '/assets', express.static(path.join(__dirname, '..', 'build/public/assets')));
 
 
 // wait all thenable objects initialized

@@ -141,7 +141,7 @@ Object.keys(routeNames)
         console.error(e, e.stack); // eslint-disable-line no-console
       }
 
-      res.status(500).send('чуть погоди, please wait build to complete, ' + e.toString());
+      res.status(500).send('please wait, please wait build to complete, ' + e.toString());
     }
   });
 });

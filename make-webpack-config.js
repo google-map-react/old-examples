@@ -77,8 +77,8 @@ module.exports = (options) => {
 
 
   let publicPath = options.devServer ?
-    'http://' + (process.env.EXT_IP || '0.0.0.0') + ':' + (process.env.HOT_RELOAD_PORT || 3081) + '/_assets/' :
-    '/_assets/';
+    'http://' + (process.env.EXT_IP || '0.0.0.0') + ':' + (process.env.HOT_RELOAD_PORT || 3081) + '/w_assets/' :
+    (process.env.SERVER_PATH || '') + '/w_assets/';
 
 
   let output = {

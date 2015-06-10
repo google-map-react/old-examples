@@ -37,8 +37,7 @@ server {
       expires 90d;
     }
 
-
-    location ~ ^/_assets/(.*)$ {
+    location ~ ^{SERVER_PATH}/w_assets/(.*)$ {
       alias {DIR}/$1;
       access_log off;
       expires 90d;

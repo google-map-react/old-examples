@@ -102,3 +102,14 @@ I highly recommend to use docker for development.
   ```
 
 * install boot2docker with nfs support (vboxfs is really-really slow) 
+
+
+#gh-pages generation
+```
+./docker_run.sh --serverpath '/google-map-react' --production
+denter gmr
+tmux att
+./scripts/gh-pages-generator.sh
+```
+
+

@@ -59,6 +59,11 @@ do
           shift
           ;;
 
+      -s | --serverpath)
+        SERVER_PATH=$2
+          shift 2
+          ;;
+
       -o | --offset)
           PORT_OFFSET=$2
           shift 2
