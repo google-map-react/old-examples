@@ -16,6 +16,7 @@ export default class Header extends Component {
     className: PropTypes.string,
     title: PropTypes.string,
     info: PropTypes.string,
+    source: PropTypes.string,
     next: PropTypes.string,
     prev: PropTypes.string
   }
@@ -41,7 +42,7 @@ export default class Header extends Component {
                 dangerouslySetInnerHTML={{__html: this.props.info}} />
             </span>)
             <span className="header-grid__center-title">{this.props.title}</span>
-            (<Link href={'/tmp/444'}>source</Link>)
+            (<a target="_blank" href={this.props.source}>source</a>)
           </div>
           <div className="header-grid__right">
             <Link style={this.props.next ? styleEmpty : styleHidden} href={this.props.next}>Next Example</Link>

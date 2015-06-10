@@ -1,3 +1,6 @@
+
+const K_EXAMPLES_SOURCE_ROOT = 'https://github.com/istarkov/google-map-react-examples/blob/master/web/flux/components/examples/';
+
 const exampleDefs = {
   main: {
     title: 'MAIN EXAMPLE',
@@ -9,36 +12,42 @@ const exampleDefs = {
           'Ability to hover on every marker <i>(zoom out to test)</i>;<br/>' +
           'Hover probability <i>(different hover probability for markers)</i>;<br/>' +
           'No map moving on balloon open.<br/><br/>' +
-          '</div>'
+          '</div>',
+    source: K_EXAMPLES_SOURCE_ROOT + 'x_main/main_map_block.jsx'
   },
 
   simple: {
     title: 'SIMPLE EXAMPLE',
     info: 'Base map usage example. <br/>' +
-          'Show any react component on the map.'
+          'Show any react component on the map.',
+    source: K_EXAMPLES_SOURCE_ROOT + 'x_simple/simple_map_page.jsx'
   },
 
   simple_hover: {
     title: 'SIMPLE HOVER EXAMPLE',
-    info: 'Show base of internal hover algorithm.'
+    info: 'Show base of internal hover algorithm.',
+    source: K_EXAMPLES_SOURCE_ROOT + 'x_simple_hover/simple_hover_map_page.jsx'
   },
 
   distance_hover: {
     title: 'DISTANCE HOVER EXAMPLE',
     info: 'Show how to use internal hover algorithm.<br/>' +
           'For use with non symmetric markers, or to tweak hover probability on some kind of markers.<br/>' +
-          'There is more probable to hover on marker A at this example.'
+          'There is more probable to hover on marker A at this example.',
+    source: K_EXAMPLES_SOURCE_ROOT + 'x_distance_hover/distance_hover_map_page.jsx'
   },
 
   events: {
     title: 'EVENTS EXAMPLE',
     info: 'Be sure you understand <a href="https://github.com/matthewwithanm/react-controllables">react-controllables</a>.<br/>' +
-          'Click on markers.'
+          'Click on markers.',
+    source: K_EXAMPLES_SOURCE_ROOT + 'x_events/events_map_page.jsx'
   },
 
   balderdash: {
     title: 'BALDERDASH',
-    info: 'Many different markers.'
+    info: 'Many different markers.',
+    source: K_EXAMPLES_SOURCE_ROOT + 'x_main/main_map_block.jsx'
   }
 };
 
