@@ -1,5 +1,5 @@
 #google-map-react examples
-This project is isomorphic flummox app with google-map-react control examples.
+This project is isomorphic flummox app with [google-map-react](https://github.com/istarkov/google-map-react) control examples.
 It uses modified [page.js](https://visionmedia.github.io/page.js/) for routing.
 
 
