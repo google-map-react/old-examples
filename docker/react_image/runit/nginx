@@ -1,0 +1,3 @@
+#!/bin/bash
+set -e
+exec /usr/local/openresty/nginx/sbin/nginx -p /home/ice/nginxlog -c /etc/nginx/nginx.conf

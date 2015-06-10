@@ -1,0 +1,13 @@
+{
+  "name": "sasstemplates",
+  "version": "0.0.1",
+  "description": "sass templates",
+  "main": "server.js",
+  "dependencies": {
+    "bourbon": "git://github.com/thoughtbot/bourbon",
+    "bourbon-neat": "^1.7.1",
+    "material-ui-sass": "^0.5.3"
+  },
+  "author": "istarkov@gmail.com",
+  "license": "yes"
+}

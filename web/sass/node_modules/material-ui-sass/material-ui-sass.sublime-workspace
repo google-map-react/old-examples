@@ -1,0 +1,2209 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"c",
+				"cwr	React: componentWillReceiveProps(np) { ... }"
+			],
+			[
+				"cell",
+				"cellHeight"
+			],
+			[
+				"Apartmen",
+				"ApartmentMap"
+			],
+			[
+				"apart",
+				"apartmentsApi"
+			],
+			[
+				"locale",
+				"localeActions"
+			],
+			[
+				"cwu",
+				"cwun	React: componentWillUnmount() { ... }"
+			],
+			[
+				"react",
+				"react-router"
+			],
+			[
+				"nav",
+				"navbar__menu"
+			],
+			[
+				"cw",
+				"cwr	React: componentWillReceiveProps(np) { ... }"
+			],
+			[
+				"_",
+				"_.map	Creates an array of values by running each element in the collection through the callback."
+			],
+			[
+				"Ap",
+				"ApartmentMap"
+			],
+			[
+				"zIndex",
+				"zIndexAppMap"
+			],
+			[
+				"marig",
+				"margin-left"
+			],
+			[
+				"hand",
+				"handleCalendarClick"
+			],
+			[
+				"events",
+				"eventsMixin"
+			],
+			[
+				"vale",
+				"valueToDate"
+			],
+			[
+				"handle",
+				"handlePrevClick"
+			],
+			[
+				"datep",
+				"datepicker-nav"
+			],
+			[
+				"chec",
+				"checkin"
+			],
+			[
+				"RANGE_TOO",
+				"RANGE_TOO_LONG"
+			],
+			[
+				"va",
+				"validationError"
+			],
+			[
+				"MISSING",
+				"MISSING_CHECKOUT"
+			],
+			[
+				"che",
+				"checkin"
+			],
+			[
+				"check",
+				"checkout"
+			],
+			[
+				"to",
+				"TOO_SHORT"
+			],
+			[
+				"ch",
+				"checkin"
+			],
+			[
+				"number",
+				"numberOfNights"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"num",
+				"numberOfNights"
+			],
+			[
+				"ste",
+				"state	React: this.state."
+			],
+			[
+				"pap",
+				"paper--depth-1"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"apar",
+				"apartment-media"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"latl",
+				"latLngs"
+			],
+			[
+				"lat",
+				"latLngs"
+			],
+			[
+				"latlng",
+				"LatLng"
+			],
+			[
+				"cd",
+				"cdup	React: componentDidUpdate(pp, ps) { ... }"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pro",
+				"propTypes"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"constrian",
+				"constrain--max"
+			],
+			[
+				"req",
+				"req	require"
+			],
+			[
+				"loader",
+				"loaderHeight"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"con",
+				"constrain"
+			],
+			[
+				"r",
+				"ren	React: render: fn() { return ... }"
+			],
+			[
+				"apa",
+				"apartment"
+			],
+			[
+				"Apar",
+				"ApartmentFeatures"
+			],
+			[
+				"navbar",
+				"navbarHeight"
+			],
+			[
+				"cr",
+				"cwr	React: componentWillReceiveProps(np) { ... }"
+			],
+			[
+				"item",
+				"itemClassName"
+			],
+			[
+				"public",
+				"publicPath"
+			],
+			[
+				"remove",
+				"removeCacheBust"
+			],
+			[
+				"ap",
+				"apartments"
+			],
+			[
+				"aa",
+				"apartment"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"pr",
+				"PropTypes"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"mui-pa",
+				"mui-paper--depth-1"
+			],
+			[
+				"requ",
+				"requireDir (fn)"
+			],
+			[
+				"APT",
+				"AptsExplorerStore"
+			],
+			[
+				"a",
+				"ApartmentExplorer"
+			],
+			[
+				"App",
+				"AppStore"
+			],
+			[
+				"e",
+				"Experience"
+			],
+			[
+				"gallery",
+				"Gallery"
+			],
+			[
+				"Home",
+				"HomeGallery"
+			],
+			[
+				"source",
+				"sourcemaps"
+			],
+			[
+				"webpac",
+				"webpackServer"
+			],
+			[
+				"route",
+				"_router"
+			],
+			[
+				"pub",
+				"publicPath"
+			],
+			[
+				"render",
+				"renderSass"
+			],
+			[
+				"link",
+				"Link"
+			],
+			[
+				"Route",
+				"RouteHandler"
+			],
+			[
+				"cache",
+				"cachebust"
+			],
+			[
+				"bui",
+				"buildPath"
+			],
+			[
+				"list-sty",
+				"list-style-position"
+			],
+			[
+				"live",
+				"livereloadServer"
+			],
+			[
+				"liver",
+				"livereloadPort"
+			],
+			[
+				"cahce",
+				"cachebust"
+			],
+			[
+				"cah",
+				"cachebust"
+			],
+			[
+				"web",
+				"webpackBuildConfig"
+			],
+			[
+				"webpack",
+				"webpackBuildConfig"
+			],
+			[
+				"lined-t",
+				"lined-title__content"
+			],
+			[
+				"landinb",
+				"landingBodyHeight"
+			],
+			[
+				"landin",
+				"landingBodyHeight"
+			],
+			[
+				"navBar",
+				"navBarButtons"
+			],
+			[
+				"color-",
+				"color-iw-red"
+			],
+			[
+				"bac",
+				"background-code"
+			],
+			[
+				"light",
+				"lightblue"
+			],
+			[
+				"ini",
+				"inline"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"blo",
+				"blocks"
+			],
+			[
+				"generic",
+				"genericBlock"
+			],
+			[
+				"gene",
+				"genericBlock"
+			],
+			[
+				"leve",
+				"levelNumber"
+			],
+			[
+				"ba",
+				"baseUrl"
+			],
+			[
+				"line",
+				"lineNumber"
+			],
+			[
+				"html",
+				"htmlReplacer"
+			],
+			[
+				"replace",
+				"replaceBlock"
+			],
+			[
+				"block",
+				"blockType"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"shou",
+				"should_not"
+			],
+			[
+				"passwor",
+				"password_confirmation"
+			],
+			[
+				"be",
+				"be_valid"
+			],
+			[
+				"valid",
+				"valid_address"
+			],
+			[
+				"inva",
+				"invalid_address"
+			],
+			[
+				"sideba",
+				"sidebar-tour"
+			],
+			[
+				"handleMapPp",
+				"handleMapPopupClose"
+			],
+			[
+				"side",
+				"sidebarWaypoint"
+			],
+			[
+				"initia",
+				"initialWaypoint"
+			],
+			[
+				"getO",
+				"getPopoverContent"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"wa",
+				"waypoint-remove"
+			],
+			[
+				"waypo",
+				"waypoints"
+			],
+			[
+				"on",
+				"onClick"
+			],
+			[
+				"font-",
+				"font-size-base"
+			],
+			[
+				"componentdi",
+				"componentDidUpdate"
+			],
+			[
+				"zoomEnd",
+				"onZoomEnd"
+			],
+			[
+				"exi",
+				"existing"
+			],
+			[
+				"waypoi",
+				"waypoint"
+			],
+			[
+				"marker",
+				"markersGroup"
+			],
+			[
+				"mar",
+				"markersGroup"
+			],
+			[
+				"update",
+				"updateUrl"
+			],
+			[
+				"handleOn",
+				"handleOnBlur"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 243.0,
+		"selected_items":
+		[
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"LINT VI",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"commi",
+				"Git: Commit"
+			],
+			[
+				"add curr",
+				"Git: Add Current File"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"commit",
+				"Git: Commit"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"lint this",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lint view",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jsx",
+				"Set Syntax: JavaScript (JSX)"
+			],
+			[
+				"add cur",
+				"Git: Add Current File"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"jsnex",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"renm",
+				"File: Rename"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"coim",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"markdon",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"mov",
+				"File: Move"
+			],
+			[
+				"jo",
+				"Set Syntax: JSON"
+			],
+			[
+				"markdown",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"ame",
+				"Git: Amend Commit"
+			],
+			[
+				"api",
+				"Set Syntax: API Blueprint"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove paca",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"add repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"add ",
+				"Package Control: Add Repository"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"upg",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"reposit",
+				"Package Control: Add Repository"
+			],
+			[
+				"less",
+				"Set Syntax: LESS"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"Comm",
+				"Git: Commit"
+			],
+			[
+				"Push",
+				"Git: Push"
+			],
+			[
+				"preivew",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"Commi",
+				"Git: Commit"
+			],
+			[
+				"Add",
+				"Git: Add Current File"
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"pus",
+				"Git: Push"
+			],
+			[
+				"prev",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"form",
+				"Format: Javascript"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"esjs",
+				"Set Syntax: EJS (<% and %>)"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"npm install",
+				"npm: Install and Save Package"
+			],
+			[
+				"npm instal",
+				"npm: Install and Save Package"
+			],
+			[
+				"npm dev",
+				"npm: Install and Save Package"
+			],
+			[
+				"npm",
+				"npm: Install Package"
+			],
+			[
+				"git init",
+				"Git: Init"
+			],
+			[
+				"linteer",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"apiar",
+				"API Blueprint: Parse to JSON AST"
+			],
+			[
+				"sy ap",
+				"Set Syntax: API Blueprint"
+			],
+			[
+				"blue",
+				"Set Syntax: API Blueprint"
+			],
+			[
+				"bluprint",
+				"API Blueprint: Parse to JSON AST"
+			],
+			[
+				"Blue",
+				"Set Syntax: API Blueprint"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ali",
+				"Preferences: Alignment File Settings – Default"
+			],
+			[
+				"alig",
+				"Preferences: Alignment Key Bindings – User"
+			],
+			[
+				"align",
+				"Preferences: Alignment Key Bindings – Default"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"git bean",
+				"Git: New Branch"
+			],
+			[
+				"git",
+				"Package Control: Install Package"
+			],
+			[
+				"swif",
+				"Set Syntax: Swift"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"meta",
+				"Snippet: <meta name=\"\" content=\"\">"
+			],
+			[
+				"Swift",
+				"Set Syntax: Swift"
+			],
+			[
+				"JSON",
+				"Set Syntax: JSON"
+			],
+			[
+				"Markdo",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"previ",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"open",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"package",
+				"Package Control: Discover Packages"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"syn text",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"snippet",
+				"Snippet: Object Value JS"
+			],
+			[
+				"DISA",
+				"Package Control: Disable Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"jshint",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"previw",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"bea",
+				"BeautifyRuby"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"installa",
+				"Package Control: Install Package"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"toggle linter",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"css",
+				"Run CSScomb JS"
+			],
+			[
+				"app",
+				"Set Syntax: AppleScript"
+			],
+			[
+				"beau",
+				"SassBeautify"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"previe",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"cssc",
+				"Sort via CSScomb"
+			],
+			[
+				"csscom",
+				"Sort via CSScomb"
+			],
+			[
+				"be",
+				"SassBeautify"
+			]
+		],
+		"width": 944.0
+	},
+	"console":
+	{
+		"height": 344.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/giampaolo/Development/material-ui-sass",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/variables",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/vendor"
+	],
+	"file_history":
+	[
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/docs/node_modules/watchify/test/api.js",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/docs/node_modules/highlight.js/docs/api.rst",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/docs/node_modules/watchify/test/api_implicit_cache.js",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/app-bar.less",
+		"/Users/giampaolo/Development/material-ui-sass/package.json",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_slider.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/variables/_media-queries.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/variables/_custom-variables.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/variables/_colors.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/variables/_spacing.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/date-picker/_calendar.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/date-picker/_calendar-toolbar.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_subheader.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_raised-button.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_menu.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_flat-button.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_card.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_app-bar.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/_html.scss",
+		"/Users/giampaolo/Development/material-ui-sass/.npmignore",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/core/_typography.scss",
+		"/Users/giampaolo/Development/material-ui-sass/README.md",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui.scss",
+		"/Users/giampaolo/Development/material-ui-sass/docs/pages/_home-purpose.scss",
+		"/Users/giampaolo/Development/material-ui-sass/docs/pages/_home-page-hero.scss",
+		"/Users/giampaolo/Development/material-ui-sass/docs/pages/_home-features.scss",
+		"/Users/giampaolo/Development/material-ui-sass/docs/pages/_home-contribute.scss",
+		"/Users/giampaolo/Development/material-ui-sass/docs/main.scss",
+		"/Users/giampaolo/Development/material-ui-sass/docs/_footer.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/_main.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_icon-button.scss",
+		"/Users/giampaolo/Development/material-ui-sass/docs/_color-palette.scss",
+		"/Users/giampaolo/Development/material-ui-sass/docs/_component-info.scss",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/docs/node_modules/react/lib/escapeTextForBrowser.js",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp/node_modules/liftoff/node_modules/resolve/lib/caller.js",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/js/icon-button.jsx",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/icon-button.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/variables/custom-variables.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/components.less",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/mixins/_ripple.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_ripple.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/ripples/_circle.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/ripples/_touch-ripple.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/ripples/_focus-ripple.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_snackbar.scss",
+		"/Users/giampaolo/Development/material-ui-sass/docs/pages/components/_component-doc.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_components.scss",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/floating-action-button.less",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_floating-action-button.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_input.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_toast.scss",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/raised-button.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp-util/lib/isNull.js",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/js/floating-action-button.jsx",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/flat-button.less",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/vendor/_react-draggable2.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/_components.scss",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/core/base.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/background-img-opts.json",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/lib/hacks/border-radius.js",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/lib/hacks/border-image.js",
+		"/Users/giampaolo/Development/material-ui-sass/gulp/utils/handleErrors.js",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/icon.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/input-color.json",
+		"/Users/giampaolo/Development/material-ui-sass/docs/pages/components/_buttons.scss",
+		"/Users/giampaolo/Development/material-ui-sass/docs/pages/components/_toolbar.scss",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/docs/src/app/components/pages/components/sliders.jsx",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/slider.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/transition-groups/slide-in.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/docs/node_modules/highlight.js/styles/solarized_light.css",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/scaffolding.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp-util/lib/replaceExtension.js",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_toolbar.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_tooltip.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/transition-groups/_slide-in.scss",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/tooltip.less",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_toggle.scss",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/docs/src/app/components/pages/components/toolbars.jsx",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/toolbar.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/js/raised-button.jsx",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp-notify/node_modules/node-notifier/test/fixture/removeAll.txt",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/node_modules/react/lib/ReactInputSelection.js",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/input.less",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/date-picker/_calendar-month.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/date-picker/_date-display.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/date-picker/_date-picker-dialog.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/date-picker/_day-button.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_dialog.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_dialog-window.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/date-picker/_date-picker.scss",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_enhanced-button.scss",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/font-loading.json",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp/completion/fish",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/docs/node_modules/gulp-less/test/expect/buttons.css",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/enhanced-button.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/docs/node_modules/highlight.js/docs/building-testing.rst",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/postcss/node_modules/js-base64/base64_utf8",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/date-picker/date-display.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/date-picker/calendar-toolbar.less",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/mixins/_transitions.scss",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/toggle.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/gulp-autoprefixer/node_modules/autoprefixer-core/node_modules/caniuse-db/features-json/text-overflow.json",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/table.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/variables/colors.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/example/src/less/custom-overrides.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/date-picker/calendar.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/date-picker/calendar-month.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/date-picker/date-picker-dialog.less",
+		"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/date-picker/day-button.less",
+		"/Users/giampaolo/Development/material-ui-sass/material-ui/components/_date-picker.scss",
+		"/Users/giampaolo/Development/italianway-frontend/app/pages/Explorer.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/app/pages/Page.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/app/client/main.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/app/routes/routes.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/style/components/apartment/_grid-item.scss",
+		"/Users/giampaolo/Development/italianway-frontend/app/pages/Apartment.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/app/components/NavBar.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/app/index.js",
+		"/Users/giampaolo/Development/italianway-frontend/build/app/components/apartment/Amenities.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/build/app/components/apartment/Features.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/app/components/apartment/Amenities.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/app/components/apartment/Features.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/app/api/apartmentsApi.js",
+		"/Users/giampaolo/Development/italianway-frontend/build/app/pages/Apartment.jsx",
+		"/Users/giampaolo/Development/italianway-frontend/style/components/apartment/_booking.scss",
+		"/Users/giampaolo/Development/italianway-frontend/style/components/apartment/_apartment.scss",
+		"/Users/giampaolo/Development/italianway-frontend/build/app/stores/apartmentsStore.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 97.0,
+		"where_history":
+		[
+			"/Users/giampaolo/Development/material-ui-sass/material-ui,*.scss",
+			"/Users/giampaolo/Development/material-ui-sass/docs,*.scss",
+			"/Users/giampaolo/Development/material-ui-sass/material-ui,*.scss",
+			"/Users/giampaolo/Development/material-ui-sass/material-ui",
+			"/Users/giampaolo/Development/material-ui-sass",
+			"/Users/giampaolo/Development/material-ui-sass/material-ui/,*.scss",
+			"/Users/giampaolo/Development/material-ui-sass/material-ui/,*.less",
+			"/Users/giampaolo/Development/material-ui-sass/material-ui/,*.scss",
+			"/Users/giampaolo/Development/material-ui-sass/node_modules/material-ui/src/less/components/date-picker",
+			"<project>,*.scss",
+			"<project>",
+			"<project>,*.scss",
+			"<project>,*.jsx",
+			"<project>,*.scss",
+			"<project>,*.js",
+			"<project>,*.jsx",
+			"<project>,*.scss",
+			"<project>,",
+			"<project>",
+			"/Users/giampaolo/Development/Web/react-express-template/app",
+			"<project>",
+			"<project>,*.scss",
+			"<project>,-/build",
+			"/Users/giampaolo/Development/Web/italianway-frontend/src",
+			"<project>/src",
+			"<project>",
+			"/Users/giampaolo/Development/komoot-web/grunt",
+			"<project>",
+			"/Users/giampaolo/Development/komoot-web/node_modules",
+			"/Users/giampaolo/Development/komoot-web/app",
+			"<project>",
+			"/Users/giampaolo/Development/komoot-web/app",
+			"/Users/giampaolo/Development/komoot-web/app/styles",
+			"/Users/giampaolo/Development/komoot-web/app/styles/bootstrap",
+			"<project>",
+			"/Users/giampaolo/Development/komoot/react-server-side/app",
+			"/Users/giampaolo/Development/komoot/react-server-side/",
+			"/Users/giampaolo/Development/komoot/react-server-side/build",
+			"/Users/giampaolo/Development/komoot/react-server-side",
+			"/Users/giampaolo/Development/komoot/react-server-side/build",
+			"/Users/giampaolo/Development/komoot/react-server-side/app/basil",
+			"/Users/giampaolo/Development/komoot/react-server-side/build",
+			"<project>",
+			"/Users/giampaolo/Development/komoot/react-server-side/app/basil",
+			"/Users/giampaolo/Development/komoot/react-server-side/app",
+			"<project>",
+			"/Users/giampaolo/Development/react-server-side/app/lib/dojo-asap",
+			"<project>",
+			"/Users/giampaolo/Development/komoot/node-express/",
+			"/Users/giampaolo/Development/komoot/node-express/src/util/",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt",
+			"/Users/giampaolo/Development/komoot/node-express/src/",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt-client",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt*",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt-server",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt",
+			"/Users/giampaolo/Development/komoot/node-express/src/",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt-client",
+			"/Users/giampaolo/Development/komoot/node-express/src/",
+			"/Users/giampaolo/Development/komoot/node-express/src/bootstrap",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt,/Users/giampaolo/Development/komoot/node-express/src/",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt,/Users/giampaolo/Development/komoot/node-express/src/kmt-client",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt,/Users/giampaolo/Development/komoot/node-express/src/",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt,/Users/giampaolo/Development/komoot/node-express/src/kmt",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt,/Users/giampaolo/Development/komoot/node-express/src/kmt-",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt,/Users/giampaolo/Development/komoot/node-express/src/kmt-client",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt",
+			"/Users/giampaolo/Development/komoot/node-express/src/",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt",
+			"/Users/giampaolo/Development/komoot/node-express/src/",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt",
+			"/Users/giampaolo/Development/komoot/node-express/src/kmt/apps",
+			"/Users/giampaolo/Development/komoot/node-express/src/",
+			"/Users/giampaolo/Development/komoot/node-express/src/bootstrap,*.js",
+			"/Users/giampaolo/Development/komoot/node-express/src/bootstrap",
+			"<project>",
+			"/Users/giampaolo/Developer/komoot/komoot-web/src/main/webapp/site/src/dojo-bootstrap,*.js",
+			"/Users/giampaolo/Developer/komoot/komoot-web/src/main/webapp/site/src/dojo-bootstrap",
+			"<project>",
+			"/Users/giampaolo/Developer/komoot/komoot-web/src/main/webapp/site/src/util/build",
+			"/Users/giampaolo/Developer/komoot/komoot-web/src/main/webapp/site/src/dojomat",
+			"<project>",
+			"<project>,*.jsp",
+			"<project>,*.js",
+			"<project>,*.html",
+			"<project>",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/leaflet/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/WEB-INF/jsp",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/scss/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/WEB-INF/jsp",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/scss/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/WEB-INF/jsp",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/scss/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/WEB-INF/jsp",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/WEB-INF/jsp",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/WEB-INF/jsp",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/WEB-INF/jsp",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/scss/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/WEB-INF/jsp",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/site/src/kmt/",
+			"~/Developer/kmt/hcn-client-dojo/src/main/webapp/WEB-INF/jsp"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			";",
+			"desktop-gutter",
+			";",
+			"'",
+			"extend .mui",
+			"extend .mui-text",
+			"extend .mui-font",
+			"extend .mui-text",
+			" ,",
+			"\n.mu",
+			".mui-font",
+			" \n}",
+			".mui-font-weight-light",
+			"fade(",
+			"fade",
+			"handler",
+			"$black, 0.15",
+			".handle-size",
+			"@si",
+			"@eas",
+			"@ease",
+			" ease-out",
+			".ease-",
+			"@",
+			"@gutt",
+			"@slid",
+			"@fil",
+			"@deskt",
+			"@rais",
+			"@button",
+			".ease-out",
+			"@desktop",
+			"@input",
+			"'",
+			"@",
+			"@fl",
+			".ea",
+			"@de",
+			"@butt",
+			"@flat",
+			"  .m",
+			".ease-",
+			".ease-out",
+			"@",
+			"pulsate",
+			"@",
+			".react-draggable",
+			"mui-touch-ripple",
+			"mui-touch-circle",
+			"border-radius",
+			"border",
+			"border-radius",
+			"0.3.3",
+			"inner",
+			"background-clip",
+			"+",
+			"sizing",
+			"box",
+			"rgba",
+			"fade",
+			"alpha",
+			"fade",
+			"lighten",
+			".lh-translate3d(",
+			".lh-opacity",
+			"@",
+			"@ease",
+			"'",
+			"@",
+			"@butt",
+			"@deskt",
+			"@light-black",
+			"@toolbar",
+			"@",
+			"@ease",
+			".lh-transition",
+			".lh-translate",
+			".lh-border-radius",
+			".handle-size",
+			".ease-out",
+			"@",
+			"@slid",
+			"@fil",
+			"@raised",
+			"+",
+			":valid",
+			"@",
+			".lh-translate",
+			".lh-opacity",
+			".pulsate",
+			".ripple",
+			"@icon-",
+			"@tran",
+			"@ripp",
+			"@tran",
+			".lh-translate",
+			".lh-opacity(",
+			".pulsate",
+			".mui-fl",
+			"ick;",
+			"@duratio",
+			"@size:",
+			"@colo",
+			"@animat",
+			".ripple-click",
+			"@floating",
+			"@",
+			"@desktop",
+			"@button",
+			"@flat",
+			"+",
+			"@",
+			"fade(",
+			"@date-p",
+			"white ",
+			" white ",
+			" white;",
+			" white",
+			".clearfix();",
+			"mui-font-weight-medium",
+			"@tog",
+			".ease-out(",
+			"@",
+			"variables",
+			"@",
+			".ease-out",
+			"ease-out",
+			"fade(@"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"extend %mui-text",
+			"extend %mui-font",
+			"extend %mui-text",
+			"lighten($",
+			"color: $",
+			"import IntlMixin from 'react-intl';",
+			"´",
+			"              \n",
+			"apartment-grid-item",
+			"paper",
+			"",
+			"00+0200\"",
+			"\"pac\":",
+			"$1.$2",
+			"\"pac\": $1, \"efficiency\": $2, \"total_energy\": $3",
+			"0 },\n",
+			"Z",
+			"Z;\", { \"pac\": ",
+			"\"timestamp\": \"2014",
+			"{ \"timestamp\": \"2014",
+			"{ \"timestamp\": \"",
+			":00Z;",
+			"2014-10-26T",
+			"}}",
+			"{{maiuscoletto|",
+			"mixins/page-content",
+			"",
+			"SimpleHeader",
+			"lib/dojo-asap/",
+			"spa",
+			"doh",
+			"mijit",
+			"kmt-client/views",
+			"kmt-server/views/_View:kmt-client/views/_View",
+			"kmt/views",
+			"kmt/stores/",
+			"\"dojo/has!host-node?kmt-server/pages/_Page:kmt-client/pages/_Page\"",
+			"kmt-client",
+			"kmt-server",
+			"_TemplatedMixin\"",
+			"kmt/models/point",
+			"kmt/models/highlight",
+			"kmt/models/routing",
+			"",
+			"routingHash.stringify",
+			"strings.point",
+			"string.point",
+			"/about",
+			"/jobs\"",
+			"/about\"",
+			"/contact",
+			"<script type=\"text/javascript\">",
+			"/",
+			"",
+			"kmt_auth",
+			"$2: $1",
+			"Profil",
+			"",
+			"format.text",
+			"leaflet/leaflet']",
+			"leaflet/leaflet",
+			"kmt-user-img",
+			"Unlock a region",
+			"kmt:duration value",
+			"kmt:datetime",
+			"kmt:date value=",
+			"kmt:speed value=",
+			"kmt:elevation value",
+			"kmt:distance value",
+			"",
+			"shortUnits=",
+			"\\2: \\1",
+			"\\1: \\2",
+			"\\2: \\1",
+			"\",",
+			": \"",
+			": ",
+			"",
+			"v006",
+			"",
+			"kmt-marker-cluster",
+			"formatAltitude",
+			"formatDistance",
+			"@import \"default\";",
+			"#444444",
+			"\",\n    \"",
+			"",
+			"\"$1\": ",
+			"fadeInnerHTML",
+			"button-facebook",
+			"button-plain",
+			".button-bordered",
+			"271129743",
+			"src/",
+			"widgets/ui/Spinner",
+			"widgets/ui/InlineTooltip",
+			"widgets/ui/Spinner",
+			"window.location",
+			"useplaceholder=true&amp;w",
+			"[disabled]",
+			"CommentBtn",
+			"lato, sans-serif",
+			"undefined",
+			"html/header_old.jsp",
+			"html/script.jsp",
+			"/html/head.jsp",
+			"/html/user_picture.jsp",
+			"/html/footer.jsp",
+			"/html/footer_old.jsp",
+			"/html/script_dep.jsp",
+			"/html/script.jsp",
+			"/html/head.jsp",
+			"utils/date",
+			"utils/datetime",
+			"Text",
+			"text",
+			"]"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 260.0
+	},
+	"output.git":
+	{
+		"height": 98.0
+	},
+	"project": "material-ui-sass.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"sliders",
+				"material-ui-sass/material-ui/components/_slider.scss"
+			],
+			[
+				"icon-button",
+				"material-ui-sass/material-ui/components/_icon-button.scss"
+			],
+			[
+				"custom",
+				"material-ui-sass/material-ui/variables/_custom-variables.scss"
+			],
+			[
+				"sliderscs",
+				"material-ui-sass/material-ui/components/_slider.scss"
+			],
+			[
+				"raisedbuttscs",
+				"material-ui-sass/material-ui/components/_raised-button.scss"
+			],
+			[
+				"inputscss",
+				"material-ui-sass/material-ui/components/_input.scss"
+			],
+			[
+				"icon-bu",
+				"material-ui-sass/material-ui/components/_icon-button.scss"
+			],
+			[
+				"floating",
+				"material-ui-sass/material-ui/components/_floating-action-button.scss"
+			],
+			[
+				"flatbuttonscss",
+				"material-ui-sass/material-ui/components/_flat-button.scss"
+			],
+			[
+				"icon-buttscs",
+				"material-ui-sass/material-ui/components/_icon-button.scss"
+			],
+			[
+				"sliderscss",
+				"material-ui-sass/material-ui/components/_slider.scss"
+			],
+			[
+				"icon",
+				"less/components/icon-button.less"
+			],
+			[
+				"rea",
+				"material-ui-sass/README.md"
+			],
+			[
+				"toolbarscss",
+				"material-ui-sass/material-ui/components/_toolbar.scss"
+			],
+			[
+				"raised",
+				"material-ui-sass/material-ui/components/_raised-button.scss"
+			],
+			[
+				"flat-button",
+				"less/components/flat-button.less"
+			],
+			[
+				"buttonscss",
+				"material-ui-sass/material-ui/components/_enhanced-button.scss"
+			],
+			[
+				"componentsscss",
+				"material-ui-sass/material-ui/components/_components.scss"
+			],
+			[
+				"compon",
+				"less/components/components.less"
+			],
+			[
+				"togglescss",
+				"material-ui-sass/material-ui/components/_toggle.scss"
+			],
+			[
+				"colorsscss",
+				"material-ui-sass/material-ui/variables/_colors.scss"
+			],
+			[
+				"item",
+				"style/components/apartment/_grid-item.scss"
+			],
+			[
+				"explorer",
+				"app/pages/Explorer.jsx"
+			],
+			[
+				"navba",
+				"app/components/NavBar.jsx"
+			],
+			[
+				"routes",
+				"app/routes/routes.jsx"
+			],
+			[
+				"apartmen",
+				"app/pages/Apartment.jsx"
+			],
+			[
+				"animat",
+				"style/skin/_animations.scss"
+			],
+			[
+				"mainscs",
+				"style/main.scss"
+			],
+			[
+				"hero",
+				"app/pages/Hero.jsx"
+			],
+			[
+				"navbar",
+				"app/components/NavBar.jsx"
+			],
+			[
+				"bookingfr",
+				"app/components/apartment/BookingForm.jsx"
+			],
+			[
+				"routerjsx",
+				"app/server/router.jsx"
+			],
+			[
+				"apar",
+				"app/pages/Apartment.jsx"
+			],
+			[
+				"router",
+				"app/server/router.jsx"
+			],
+			[
+				"bookin",
+				"app/components/apartment/Booking.jsx"
+			],
+			[
+				"datein",
+				"app/components/form/DateInput.jsx"
+			],
+			[
+				"booking",
+				"app/components/apartment/Booking.jsx"
+			],
+			[
+				"mediagaller",
+				"style/components/_media-gallery.scss"
+			],
+			[
+				"apart",
+				"app/pages/Apartment.jsx"
+			],
+			[
+				"amenit",
+				"app/components/apartment/Amenities.jsx"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"index",
+				"app/index.js"
+			],
+			[
+				"datepi",
+				"app/components/form/DatePicker.jsx"
+			],
+			[
+				"appindex",
+				"app/index.js"
+			],
+			[
+				"inde",
+				"app/index.js"
+			],
+			[
+				"dateinput",
+				"app/components/form/DateInput.jsx"
+			],
+			[
+				"datep",
+				"app/components/form/DatePicker.jsx"
+			],
+			[
+				"webpack",
+				"gulp/webpack.config.js"
+			],
+			[
+				"dateint",
+				"app/components/form/DateInput.jsx"
+			],
+			[
+				"calendar",
+				"style/components/_calendar.scss"
+			],
+			[
+				"navbarscss",
+				"style/components/_navbar.scss"
+			],
+			[
+				"grid",
+				"style/components/apartment/_grid-item.scss"
+			],
+			[
+				"gridscss",
+				"style/basicss/objects/_grid.scss"
+			],
+			[
+				"config",
+				"gulp/webpack.config.js"
+			],
+			[
+				"navb",
+				"app/components/NavBar.jsx"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"i18n",
+				"app/i18n/index.js"
+			],
+			[
+				"medga",
+				"app/components/apartment/MediaGallery.jsx"
+			],
+			[
+				"griditem",
+				"app/components/apartment/GridItem.jsx"
+			],
+			[
+				"routesjsx",
+				"app/routes/routes.jsx"
+			],
+			[
+				"datepick",
+				"app/components/form/DatePicker.jsx"
+			],
+			[
+				"input",
+				"app/components/form/Input.jsx"
+			],
+			[
+				"bookingj",
+				"app/components/apartment/Booking.jsx"
+			],
+			[
+				"tutors",
+				"app/components/apartment/Tutor.jsx"
+			],
+			[
+				"amenities",
+				"app/components/apartment/Amenities.jsx"
+			],
+			[
+				"mediaga",
+				"app/components/apartment/MediaGallery.jsx"
+			],
+			[
+				"mapact",
+				"app/actions/mapActions.js"
+			],
+			[
+				"explorerjsx",
+				"app/pages/Explorer.jsx"
+			],
+			[
+				"mapjsx",
+				"app/components/Map.jsx"
+			],
+			[
+				"mainjs",
+				"app/client/main.jsx"
+			],
+			[
+				"appj",
+				"app/pages/App.jsx"
+			],
+			[
+				"localestore",
+				"app/stores/localeStore.js"
+			],
+			[
+				"mainjsx",
+				"app/client/main.jsx"
+			],
+			[
+				"appjsx",
+				"app/pages/App.jsx"
+			],
+			[
+				"mapstore",
+				"app/stores/mapStore.js"
+			],
+			[
+				"action",
+				"app/actions/mapActions.js"
+			],
+			[
+				"localeact",
+				"app/actions/localeActions.js"
+			],
+			[
+				"localest",
+				"app/stores/localeStore.js"
+			],
+			[
+				"herojsx",
+				"app/pages/Hero.jsx"
+			],
+			[
+				"loaderjsx",
+				"app/components/Loader.jsx"
+			],
+			[
+				"apact",
+				"app/actions/apartmentsActions.js"
+			],
+			[
+				"apartmentsapi",
+				"app/api/apartmentsApi.js"
+			],
+			[
+				"gulpwebpac",
+				"gulp/tasks/webpack-dev.js"
+			],
+			[
+				"api",
+				"app/api/api.js"
+			],
+			[
+				"apartstore",
+				"app/stores/apartmentsStore.js"
+			],
+			[
+				"server",
+				"server.js"
+			],
+			[
+				"gridjsx",
+				"app/components/apartment/Grid.jsx"
+			],
+			[
+				"itemscss",
+				"style/components/apartment/_grid-item.scss"
+			],
+			[
+				"features",
+				"app/components/apartment/Features.jsx"
+			],
+			[
+				"mainscss",
+				"style/main.scss"
+			],
+			[
+				"settings",
+				"style/basicss/_settings.scss"
+			],
+			[
+				"livere",
+				"gulp/tasks/livereload.js"
+			],
+			[
+				"webfont",
+				"app/client/webfonts.js"
+			],
+			[
+				"webpackconfig",
+				"gulp/webpack.config.js"
+			],
+			[
+				"live",
+				"gulp/tasks/livereload.js"
+			],
+			[
+				"paca",
+				"package.json"
+			],
+			[
+				"webpac",
+				"gulp/webpack.config.js"
+			],
+			[
+				"appst",
+				"app/stores/appStore.js"
+			],
+			[
+				"app",
+				"app/actions/appActions.js"
+			],
+			[
+				"htmljsx",
+				"app/pages/Html.jsx"
+			],
+			[
+				"html",
+				"app/pages/Html.jsx"
+			],
+			[
+				"clientmain",
+				"app/client/main.jsx"
+			],
+			[
+				"client",
+				"app/client/tooltip.js"
+			],
+			[
+				"sett",
+				"style/basicss/_settings.scss"
+			],
+			[
+				"width",
+				"style/basicss/helper/_width.scss"
+			],
+			[
+				"box",
+				"style/basicss/objects/_box.scss"
+			],
+			[
+				"gridit",
+				"app/components/apartment/GridItem.jsx"
+			],
+			[
+				"conditio",
+				"style/trumps/_conditional-css.scss"
+			],
+			[
+				"main",
+				"style/main.scss"
+			],
+			[
+				"explorerscss",
+				"style/components/_explorer.scss"
+			],
+			[
+				"expl",
+				"app/pages/Explorer.jsx"
+			],
+			[
+				"nab",
+				"app/components/NavBar.jsx"
+			],
+			[
+				"con",
+				"gulp/config.js"
+			],
+			[
+				"gulpnode",
+				"gulp/tasks/nodemon.js"
+			],
+			[
+				"clien",
+				"app/client/main.jsx"
+			],
+			[
+				"serverjsx",
+				"app/routes/server.jsx"
+			],
+			[
+				"serverjs",
+				"server.js"
+			],
+			[
+				"webpackconf",
+				"gulp/webpack.config.js"
+			],
+			[
+				"apartm",
+				"app/stores/apartmentsStore.js"
+			],
+			[
+				"settin",
+				"style/basicss/_settings.scss"
+			],
+			[
+				"lists",
+				"style/basicss/objects/_bare-list.scss"
+			],
+			[
+				"apartmentscss",
+				"style/components/apartment/_grid-item.scss"
+			],
+			[
+				"logoscs",
+				"style/skin/_logo.scss"
+			],
+			[
+				"amenitie",
+				"app/components/apartment/Amenities.jsx"
+			],
+			[
+				"button",
+				"style/basicss/objects/_buttons.scss"
+			],
+			[
+				"font-s",
+				"style/basicss/mixins/_font-size.scss"
+			],
+			[
+				"typo",
+				"style/skin/_typo.scss"
+			],
+			[
+				"apartment",
+				"app/pages/Apartment.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Development/Web/italianway-frontend/Italianway.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

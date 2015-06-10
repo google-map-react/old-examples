@@ -1,0 +1,29 @@
+.header
+  hr
+    margin: 0
+    padding: 0
+
+.header-grid
+  @include outer-container(100%)
+  margin-left: 20px
+  margin-right: 20px
+  margin-top: 10px
+  margin-bottom: 10px
+  .header-grid__left
+    @include span-columns(2)
+  .header-grid__center
+    @include span-columns(8)
+    text-align: center
+    .header-grid__center-title
+      display: inline-block
+      font-weight: bold
+      margin: 0 5px 0 5px
+    .header-grid__center-info
+      color: #00bcd4
+      cursor: pointer
+    .header-grid__center-info-hint
+      width: 340px
+
+  .header-grid__right
+    @include span-columns(2)
+    text-align: right

@@ -1,0 +1,5 @@
+Host bitbucket.org
+  StrictHostKeyChecking no
+
+Host github.com
+  StrictHostKeyChecking no

@@ -1,0 +1,39 @@
+$column-width: 200px;
+
+.mui-table {
+  padding: 0 $desktop-gutter;
+
+  .mui-table-header {
+
+    .mui-table-header-column {
+      display: inline-block;
+      height: 48px;
+      line-height: 48px;
+      width: $column-width;
+    }
+
+    .mui-table-header-pagify {
+      display: inline-block;
+      height: 48px;
+      line-height: 48px;
+      float: right;
+    }
+  }
+
+  .mui-table-rows {
+
+    .mui-table-rows-item {
+      height: 48px;
+      line-height: 48px;
+      display: block;
+      width: 100%;
+    }
+
+    .mui-table-rows-actions {
+      height: 48px;
+      line-height: 48px;
+      display: inline-block;
+      float: right;
+    }
+  }
+}

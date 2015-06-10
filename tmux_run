@@ -1,0 +1,65 @@
+#!/bin/bash
+set -e
+
+export LC_NUMERIC=C
+
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do # resolve $SOURCE until the file is no longer a symlink
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE" # if $SOURCE was a relative symlink, we need to resolve it relative to the path where the symlink file was located
+done
+
+DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+CLIENT_DIR="$( cd -P "$( dirname "$SOURCE" )"/build/public && pwd )"
+
+
+cat server/settings/nginx_config_docker.template | \
+sed "s/{DIR}/$(echo $CLIENT_DIR | sed -e 's/\\/\\\\/g' -e 's/\//\\\//g' -e 's/&/\\\&/g')/g" | \
+sed "s/{SERVER_PATH}/$(echo $SERVER_PATH | sed -e 's/\\/\\\\/g' -e 's/\//\\\//g' -e 's/&/\\\&/g')/g" > server/settings/nginx_config_docker.turk
+
+if (tmux list-s | grep algo2_tmux_server); then
+  echo 'TMUX SESSION EXIST'
+
+  if (( $# == 0 ))
+  then
+    tmux attach-session -t algo2_tmux_server
+  fi
+
+else
+echo 'START CREATE TMUX SESSION'
+
+unamestr=`uname`
+
+tmux start-server
+tmux new-session -d -s algo2_tmux_server -n WEB
+tmux new-window -t algo2_tmux_server:2 -n COMMANDS
+tmux new-window -t algo2_tmux_server:3 -n GIT
+tmux new-window -t algo2_tmux_server:4 -n MONGO
+
+tmux split-window -v -t algo2_tmux_server:1
+tmux split-window -h -t algo2_tmux_server:1.1
+
+
+tmux split-window -v -t algo2_tmux_server:2
+
+tmux select-window -t algo2_tmux_server:1
+tmux resize-pane -t algo2_tmux_server:1.0 20
+
+SYSTEM=`uname`
+
+npm run clean
+
+tmux send-keys -t algo2_tmux_server:1.1 "cd ." C-m "npm run start" C-m
+
+if [[ $NODE_ENV == "production" ]]; then
+  tmux send-keys -t algo2_tmux_server:1.0 "cd ." C-m "npm run build" C-m
+else
+  tmux send-keys -t algo2_tmux_server:1.0 "cd ." C-m "npm run hot-dev-server" C-m
+fi
+
+tmux send-keys -t algo2_tmux_server:2.0 "cd ." C-m "sudo rm /etc/nginx/sites-enabled/default" C-m "sudo ln -n -s $DIR/server/settings/nginx_config_docker.turk /etc/nginx/sites-enabled/smap.config" C-m
+sleep 1
+tmux send-keys -t algo2_tmux_server:2.1 "cd ." C-m "sudo sv restart nginx" C-m
+
+fi

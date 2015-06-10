@@ -1,0 +1,86 @@
+{
+  "name": "fixed-data-table",
+  "version": "0.1.2",
+  "description": "A React table component designed to allow presenting thousands of rows of data.",
+  "main": "main.js",
+  "peerDependencies": {
+    "react": ">=0.12.0 <0.14.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^5.0.0",
+    "bundle-loader": "^0.5.2",
+    "css-loader": "^0.9.1",
+    "esprima-fb": "^10001.1.0-dev-harmony-fb",
+    "extract-text-webpack-plugin": "^0.3.8",
+    "faker": "^2.1.2",
+    "file-loader": "^0.8.1",
+    "glob": "^4.3.5",
+    "html-loader": "^0.2.3",
+    "jsx-loader": "^0.12.2",
+    "less": "^2.2.0",
+    "less-loader": "^2.0.0",
+    "marked": "^0.3.2",
+    "node-jsx": "^0.12.4",
+    "null-loader": "^0.1.0",
+    "object-assign": "^2.0.0",
+    "postcss": "^4.0.2",
+    "postcss-custom-properties": "^3.0.0",
+    "react": "^0.12.2",
+    "react-tools": "^0.12.2",
+    "style-loader": "^0.8.3",
+    "url-loader": "^0.5.5",
+    "webpack": "^1.4.15",
+    "webpack-dev-server": "^1.7.0"
+  },
+  "scripts": {
+    "site-dev-server": "./build_helpers/startSiteDevServer.sh",
+    "site-build": "./build_helpers/buildStaticSite.sh",
+    "build-dist": "NODE_ENV=production webpack && NODE_ENV=production COMPRESS=1 webpack",
+    "build-npm": "./build_helpers/buildNPMInternals.sh",
+    "publish-site": "./build_helpers/publishStaticSite.sh",
+    "publish-package": "./build_helpers/publishPackage.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facebook/fixed-data-table.git"
+  },
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/facebook/fixed-data-table/issues"
+  },
+  "homepage": "http://facebook.github.io/fixed-data-table",
+  "tags": [
+    "react",
+    "table"
+  ],
+  "keywords": [
+    "react",
+    "react-component",
+    "table",
+    "data-table",
+    "fixed-table"
+  ],
+  "gitHead": "f66c616a3d03ea0bc88f2e32b6cbb0cd93edde98",
+  "_id": "fixed-data-table@0.1.2",
+  "_shasum": "412c827506728cdce658bdb58785e419960b7cd3",
+  "_from": "fixed-data-table@*",
+  "_npmVersion": "2.1.14",
+  "_nodeVersion": "0.10.35",
+  "_npmUser": {
+    "name": "pieterv",
+    "email": "me@pieter.io"
+  },
+  "maintainers": [
+    {
+      "name": "pieterv",
+      "email": "me@pieter.io"
+    }
+  ],
+  "dist": {
+    "shasum": "412c827506728cdce658bdb58785e419960b7cd3",
+    "tarball": "http://registry.npmjs.org/fixed-data-table/-/fixed-data-table-0.1.2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/fixed-data-table/-/fixed-data-table-0.1.2.tgz"
+}

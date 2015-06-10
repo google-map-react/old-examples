@@ -1,0 +1,35 @@
+.mui-snackbar {
+
+  color: $mui-snackbar-text-color;
+  background-color: $mui-snackbar-background-color;
+  border-radius: 2px;
+  padding: 0 $desktop-gutter;
+  height: $desktop-subheader-height;
+  line-height: $desktop-subheader-height;
+  min-width: 288px;
+  max-width: 568px;
+
+  position: fixed;
+  z-index: 10;
+  bottom: $desktop-gutter;
+  left: $desktop-gutter;
+
+  @include ease-out();
+  opacity: 0;
+  transform: translate3d(0, 8px, 0);
+
+  .mui-snackbar-action {
+    color: $mui-snackbar-action-color;
+    float: right;
+    margin-top: 6px;
+    margin-right: -16px;
+    margin-left: $desktop-gutter;
+    background-color: transparent;
+  }
+
+  &.mui-is-open {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+}

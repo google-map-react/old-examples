@@ -1,0 +1,17 @@
+$ease-out-function: cubic-bezier(0.23, 1, 0.32, 1);
+
+@mixin ease-out($duration: 450ms, $property: all, $delay: 0ms) {
+  transition: $property $duration $ease-out-function $delay;
+}
+
+@mixin pulsate($animation-name, $start-size: 0.75, $end-size: 1) {
+  @keyframes #{$animation-name} {
+    0%   { transform: scale($start-size); }
+    50%  { transform: scale($end-size);   }
+    100% { transform: scale($start-size); }
+  }
+}
+
+@mixin pulsate-animation($animation-name, $duration: 1.5s) {
+  animation: $animation-name $duration infinite;
+}

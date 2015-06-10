@@ -1,0 +1,31 @@
+// @import this file to make your UI adhere better to the Material UI guidelines
+// This will intentionally overwrite the behaviour of plain HTML tags
+
+html {
+  -webkit-font-smoothing: antialiased;
+  color: $body-text-color;
+  font-family: $contentFontFamily;
+  background-color: $canvas-color;
+}
+
+body {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+hr {
+  border: none;
+  border-bottom: solid 1px $border-color;
+}
+
+h1 { @extend %mui-font-style-display-2; }
+h2 { @extend %mui-font-style-display-1; }
+h3 { @extend %mui-font-style-headline; }
+h4 { @extend %mui-font-style-title; }
+h5 { @extend %mui-font-style-subhead-1; }
+h6 { @extend %mui-font-style-body-2; }
+p  { @extend %mui-font-style-body-1; }
+hr {
+  margin-top: 0;
+  margin-bottom: 18px;
+}

@@ -1,0 +1,81 @@
+.map-marker
+
+  @for $i from 0 through 40
+    &.map-marker--hint-bottom-delta--#{$i}
+      &.hint--bottom:before, .hint--bottom:after
+        left: calc(50% - #{$i}px)
+  @for $i from 0 through 40
+    &.map-marker--hint-bottom-delta-#{$i}
+      &.hint--bottom:before, .hint--bottom:after
+        left: calc(50% + #{$i}px)
+
+  .map-marker__marker
+    &.map-marker__marker--ap
+      background-image: url('../assets/icons/map_icons/map_icon_violet.svg')
+    &.map-marker__marker--as
+      background-image: url('../assets/icons/map_icons/map_icon_yellow.svg')
+    &.map-marker__marker--big
+      background-image: url('../assets/icons/map_icons/map_icon_text_red.svg')
+    &.map_icon_text_red
+      background-image: url('../assets/icons/map_icons/map_icon_text_red.svg')
+    &.map_icon_text_indigo
+      background-image: url('../assets/icons/map_icons/map_icon_text_indigo.svg')
+    &.map_icon_flag_orange
+      background-image: url('../assets/icons/map_icons/map_icon_flag_orange.svg')
+    &.map_icon_std
+      background-image: url('../assets/icons/map_icons/map_icon_std.svg')
+    &.map_icon_std_orange
+      background-image: url('../assets/icons/map_icons/map_icon_std_orange.svg')
+
+  &.hint--balloon
+    @include ice-hint-type(rgba(97, 104, 172, 1))
+    .hint__content
+      // чтобы цвет bg хинта плавно менялся
+      z-index: $zIndex - 20
+      transition: background-color 1.0s ease
+    &:before
+      z-index: $zIndex - 19
+      // чтобы цвет стрелочки плавно менялся
+      transition: border-color 1.0s ease
+
+  .map-marker-hint
+    cursor: default
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5)
+
+  .map-marker-hint__close-button
+    position: absolute
+    right: 5px
+    top: 5px
+    color: red
+    visibility: hidden
+    cursor: pointer
+
+  .map-marker-hint__close-button--visible
+    visibility: visible
+
+  .map-marker-hint__title
+    margin-bottom: 5px
+
+  .map-marker-hint__address
+    font-weight: normal
+    font-size: 11px
+    color: rgba(0,0,0,0.5)
+    margin-bottom: 5px
+
+  .map-marker-hint__ap-link
+    color: #23546B
+    font-size: 10px
+    font-style: italic
+  .map-marker-hint__ap-link--hidden
+    visibility: hidden
+
+  .map-marker-hint__content
+    height: 0
+    transform: translate3d(0,0,0)
+    overflow: hidden
+    transition: height 0.35s cubic-bezier(0.485, 1.650, 0.545, 0.835)
+
+  .map-marker-hint__content--visible
+    height: 61px
+
+

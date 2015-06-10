@@ -1,0 +1,40 @@
+
+.ice-table
+  &.ice-table--row-even
+    background-color: #f3f3f3
+    &.ice-table--row-hovered
+      cursor: pointer
+      background-color: #bbb
+  &.ice-table--row-odd
+    background-color: white
+    &.ice-table--row-hovered
+      cursor: pointer
+      background-color: #bbb
+  .ice-table__column0
+    text-align: center
+  .ice-table__column0-number
+    display: inline-block
+    border: 3px solid #3F51B5
+    border-radius: 8px
+    width: 40px
+    height: 28px
+    background-color: white
+    font-weight: bold
+    font-size: 12px
+    text-align: center
+    // padding-top: 1px
+    &.ice-table__column0-number__color0
+      border-color: #00BCD4
+    &.ice-table__column0-number__color1
+      border-color: #3F51B5
+
+  .ice-table__column1
+  .ice-table__column1-title
+    font-weight: bold
+  .ice-table__column1-address
+    font-style: italic
+    font-size: 12px
+
+  .ice-table__column2
+    background-color: white
+    pointer-events: none

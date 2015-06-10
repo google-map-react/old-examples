@@ -1,0 +1,18 @@
+@mixin aspect-wrapper($aspect-ratio)
+  width: 100%
+  /* whatever width you want */
+  //display: inline-block
+  position: relative
+  &:after
+    padding-top: 100% * $aspect-ratio
+    display: block
+    content: ''
+  
+  @content;
+
+@mixin aspect-content
+  position: absolute
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0

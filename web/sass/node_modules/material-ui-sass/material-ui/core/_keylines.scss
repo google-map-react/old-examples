@@ -1,0 +1,17 @@
+// generates:
+// .mui-key-width-1  { @include mui-keywidth(1); }
+// .mui-key-height-1  { @include mui-keyheight(1); }
+// for 10 classes
+@mixin mui-generate($num) {
+  @for $i from 1 to $num {
+    .mui-key-height-#{$i} {
+      height: ($i * $desktop-keyline-increment);
+    }
+
+    .mui-key-width-#{$i} {
+      width: ($i * $desktop-keyline-increment);
+    }
+  }
+}
+
+@include mui-generate(10);

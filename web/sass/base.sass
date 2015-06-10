@@ -1,0 +1,90 @@
+//Кнопочки баттоны и тп
+body
+  background-color: white
+  @extend %mui-font-style-body-1
+
+a
+  color: $primary-1-color
+  text-decoration: none
+  &:visited
+    color: $primary-1-color
+  &:hover
+    color: lighten($primary-1-color, 12%)
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before, [class^="flaticon-"]:after, [class*=" flaticon-"]:after
+  font-family: Flaticon
+  font-style: normal
+  //margin-left: 12px
+
+.icon-button
+  .mui-raised-button-label
+    padding-right: 12px
+    padding-left: 6px
+  .mui-font-icon
+    color: $primary-1-color
+  &.mui-is-primary
+    .mui-font-icon
+      color: white
+
+
+.icon-link-button
+  padding: 0 0
+  margin: 0 6px
+  .mui-raised-button-label
+    padding-right: 12px
+    padding-left: 6px
+
+  .mui-font-icon
+    color: $primary-1-color
+
+.mui-flat-button
+  margin: 0 6px
+
+
+.mui-text-field
+  //&.search
+    //width: 70%
+
+.nodisplay
+  display: none
+
+.defcursor
+  cursor: default
+
+.cursor-pointer
+  cursor: pointer
+
+.vm
+  @include valign-middle()
+
+.disable-pointer-events
+  .stop-events
+    pointer-events: none
+  .disable-events-on-map-move
+    pointer-events: none
+
+.noevents
+  pointer-events: none
+
+.events
+  pointer-events: initial
+
+.nowrap
+  white-space: nowrap
+
+.ellipsis
+  overflow: hidden
+  text-overflow: ellipsis
+
+.noselect
+  -webkit-touch-callout: none
+  -webkit-user-select: none
+  -khtml-user-select: none
+  -moz-user-select: none
+  -ms-user-select: none
+  user-select: none
+
+.bgred
+  background-color: red
+.bred
+  border: 1px solid red

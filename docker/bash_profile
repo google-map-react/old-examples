@@ -1,0 +1,44 @@
+
+#--------------------------------------------------------------------------------------------------
+#Dockers
+#--------------------------------------------------------------------------------------------------
+
+errh()(set -o pipefail;"$@" 2>&1>&3|sed $'s,.*,\e[31m&\e[m,'>&2)3>&1
+
+#for osx
+dreloadhost()
+{
+
+  SYSTEM=`uname`
+  [ "$SYSTEM" = "Darwin" ] && export DOCKER_HOST="tcp://`boot2docker ip 2>&1 | sed -n 2,2p | awk -F' ' '{print $9}'`:2376"
+  [ "$SYSTEM" = "Darwin" ] && export DOCKER_CERT_PATH=/Users/ice/.boot2docker/certs/boot2docker-vm
+  [ "$SYSTEM" = "Darwin" ] && export DOCKER_TLS_VERIFY=1
+}
+dreloadhost
+
+#kill all 'dkill -a'
+dkill ()
+{
+  while :
+  do
+    case $1 in
+        -a | --all)
+            [ "$(docker ps -a -q)" ] && docker rm -f $(docker ps -a -q)
+            shift 1
+            ;;
+
+        *)  # no more options. Stop while loop
+            [ "$1" ] && docker rm -f "$1"
+            break
+            ;;
+    esac
+  done
+  [ "$(docker images | grep "^<none>" | awk "{print $3}")" ] && docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
+}
+
+alias dps="docker ps"
+denter() {
+  CONTAINER=$1
+  shift 1
+  docker exec -it "$CONTAINER" su - ice -c 'script -q /dev/null'
+}

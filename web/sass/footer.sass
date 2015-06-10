@@ -1,0 +1,23 @@
+.page-footer-holder
+  hr
+    margin: 0
+    padding: 0
+  @include media($mobile)
+    hr
+      display: none
+    .page-footer
+      height: 1px
+      overflow: hidden
+      visibility: hidden
+
+.page-footer
+  @include outer-container(100%)
+  margin-left: 20px
+  margin-right: 20px
+  margin-top: 10px
+  margin-bottom: 10px
+  .page-footer__left
+    @include span-columns(6)
+  .page-footer__right
+    @include span-columns(6)
+    text-align: right

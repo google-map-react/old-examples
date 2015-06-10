@@ -1,0 +1,61 @@
+proxy_cache_path  /var/cache/nginx levels=1:2 keys_zone=smap:8m max_size=3000m inactive=600m;
+
+large_client_header_buffers 4 256k;
+
+upstream ice_map_upstream {
+  server 127.0.0.1:3000;
+  keepalive 16;
+}
+
+log_format timed_combined '$remote_addr - $upstream_addr - $remote_user [$time_local]  '
+  '"$request" $status $body_bytes_sent '
+  '"$http_referer" "$http_user_agent" '
+  '$request_time upstream_response_time: $upstream_response_time $pipe';
+access_log /dev/stdout timed_combined;
+
+server {
+    gzip on;
+    gzip_comp_level 6;
+    gzip_vary on;
+    gzip_min_length  1000;
+    gzip_proxied any;
+    gzip_types text/plain text/css application/octet-stream application/json application/javascript application/x-javascript text/xml application/xml application/xml+rss text/javascript;
+    gzip_buffers 16 8k;
+
+    listen 80 default_server;
+    large_client_header_buffers 4 256k;
+
+    location ~ ^/data/(images/.*)$ {
+      alias /home/ice/ext/google-map-react-examples/build/public/../../data/$1;
+      access_log off;
+      expires 90d;
+    }
+
+    location ~ ^/assets\/(images/.*)$ {
+      alias /home/ice/ext/google-map-react-examples/build/public/assets/$1;
+      access_log off;
+      expires 90d;
+    }
+
+
+    location ~ ^/_assets/(.*)$ {
+      alias /home/ice/ext/google-map-react-examples/build/public/$1;
+      access_log off;
+      expires 90d;
+    }
+
+    location / {
+      proxy_redirect off;
+      proxy_buffering off;
+      proxy_set_header   X-Real-IP            $remote_addr;
+      proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;
+      proxy_set_header   X-Forwarded-Proto $scheme;
+      proxy_set_header   Host                   $http_host;
+      proxy_set_header   X-NginX-Proxy    true;
+      proxy_set_header   Connection "";
+      proxy_http_version 1.1;
+      proxy_cache smap;
+      proxy_cache_key $scheme$proxy_host$request_uri;
+      proxy_pass         http://ice_map_upstream;
+    }
+}

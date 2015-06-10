@@ -1,0 +1,15 @@
+web/log_inotify.txt
+/osx/log_inotify.txt
+/build/*
+!/build/.empty
+/build/public/*
+!/build/public
+!/build/public/.empty
+/build/prerender/*
+!/build/prerender
+!/build/prerender/.empty
+/_node_modules
+/node_modules
+/data
+npm-debug.log
+/api
