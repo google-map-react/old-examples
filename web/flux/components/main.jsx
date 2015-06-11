@@ -3,7 +3,7 @@ import shouldPureComponentUpdate from 'react-pure-render/function';
 import {routeNames} from 'create_routes.js';
 import {examples} from 'consts/example_defs.js';
 
-import FluxComponent from 'flummox/component';
+import {FluxComponent} from 'flummox/addons/react';
 
 import MainMapPage from './examples/x_main/main_map_page.jsx';
 import SimpleMapPage from './examples/x_simple/simple_map_page.jsx';

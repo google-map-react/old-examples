@@ -1,7 +1,7 @@
 import React, {PropTypes, Component} from 'react/addons';
 import shouldPureComponentUpdate from 'react-pure-render/function';
 
-import FluxComponent from 'flummox/component';
+import {FluxComponent} from 'flummox/addons/react';
 
 import MainMapLayout from './main_map_layout.jsx';
 import IceTable from 'components/controls/fixed_table_examples/ice_table.jsx';

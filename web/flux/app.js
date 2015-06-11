@@ -1,7 +1,7 @@
 import React from 'react/addons';
 
 import AppFlux from 'utils/appflux.js';
-import FluxComponent from 'flummox/component';
+import {FluxComponent} from 'flummox/addons/react';
 
 import Main from 'components/main.jsx';
 

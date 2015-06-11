@@ -1,5 +1,5 @@
 import { Flummox } from 'flummox';
-import RouteActions from 'actions/route_actions.js';
+import createRouteActions from 'actions/route_actions.js';
 import RouteStore from 'stores/route_store.js';
 
 import initFlux from 'initflux.js';
@@ -14,8 +14,8 @@ export default class AppFlux extends Flummox {
     super();
 
     const pageRouter = createPage(); // pagejs роутер
+    const routeActions = this.createActions('route', createRouteActions(pageRouter));
 
-    const routeActions = this.createActions('route', RouteActions, pageRouter);
     this.createStore('route', RouteStore, { routeActions });
 
     const actions = initFlux(this);
