@@ -112,4 +112,7 @@ tmux att
 ./scripts/gh-pages-generator.sh
 ```
 
+## License
+MIT (http://www.opensource.org/licenses/mit-license.php)   
+
 
