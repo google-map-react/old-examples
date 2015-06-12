@@ -22,3 +22,14 @@ html, body, #react_main
   top: 0
   width: 100%
   height: 100%
+
+.ie9
+  .main-view
+    height: 100%
+    display: block
+  .main-view__row
+    display: block
+    height: 41px
+    &.main-view__row--expanded
+      height: calc(100% - 82px)
+
