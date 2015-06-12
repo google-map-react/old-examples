@@ -19,7 +19,9 @@ export default class Page extends Component {
       <div className="main-view">
         <Header className="main-view__row" {...this.props} />
         <main className="main-view__row main-view__row--expanded">
-          {this.props.children}
+          <div className="main-view__row-content">
+            {this.props.children}
+          </div>
         </main>
         <Footer className="main-view__row" />
       </div>
