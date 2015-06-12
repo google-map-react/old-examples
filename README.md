@@ -62,13 +62,13 @@ I highly recommend to use docker for development.
   ```bash
   ./docker_run
   ```
-  *run browser and type* [http://localhost:3000/map/main](http://localhost:3000/map/main)
+  *run browser and type* [http://localhost:3080/map/main](http://localhost:3000/map/main)
 
 * Run production build (*isomorphic*)   
   ```bash
   ./docker_run --production
   ```
-  *run browser and type* [http://localhost:3000/map/main](http://localhost:3000/map/main)
+  *run browser and type* [http://localhost:3080/map/main](http://localhost:3000/map/main)
 
 * Enter container to view or to test anything (*be sure bash_profile aliases from ./docker/bash_profile installed*)   
   ```bash
