@@ -14,7 +14,7 @@ DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 cd $DIR/../build
 rm -rf gh-pages
 
-EXAMPLES=(main simple simple_hover distance_hover events balderdash)
+EXAMPLES=(main simple options simple_hover distance_hover events balderdash)
 
 for EXAMPLE in ${EXAMPLES[@]}; do
   mkdir -p "gh-pages/map/${EXAMPLE}"

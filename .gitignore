@@ -13,3 +13,4 @@ web/log_inotify.txt
 /data
 npm-debug.log
 /api
+/web/tmp

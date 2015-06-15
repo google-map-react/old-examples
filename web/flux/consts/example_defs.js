@@ -24,6 +24,12 @@ const exampleDefs = {
     source: K_EXAMPLES_SOURCE_ROOT + 'x_simple/simple_map_page.jsx'
   },
 
+  options: {
+    title: 'CUSTOM MAP OPTIONS EXAMPLE',
+    info: 'Custom map options usage example.',
+    source: K_EXAMPLES_SOURCE_ROOT + 'x_options/options_map_page.jsx'
+  },
+
   simple_hover: {
     title: 'SIMPLE HOVER EXAMPLE',
     info: 'Show base of internal hover algorithm.',

@@ -18,17 +18,18 @@ module.exports = (options) => {
   let root = path.join(__dirname, `${webDir}/flux`);
   let jsRoot = path.join(__dirname, `${webDir}`);
 
-  let modulesDirectories = ['node_modules', 'flux', 'assets'];
+  let modulesDirectories = ['web/tmp', 'node_modules', 'flux', 'assets'];
 
   const babelLoaderString = 'babel-loader?stage=0' + (options.prerender ? '' : '&externalHelpers');
+  const babelLoaderStringFinal = options.hotComponents ? `react-hot-loader!${babelLoaderString}` : babelLoaderString;
 
   let loaders = {
     'jsx': {
-      loader: options.hotComponents ? `react-hot-loader!${babelLoaderString}` : babelLoaderString,
+      loader: babelLoaderStringFinal,
       include: [jsRoot]
     },
     'js': {
-        loader: babelLoaderString,
+        loader: babelLoaderStringFinal,
         include: [jsRoot]
     },
     'json': 'json-loader',

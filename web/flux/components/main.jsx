@@ -7,6 +7,7 @@ import {FluxComponent} from 'flummox/addons/react';
 
 import MainMapPage from './examples/x_main/main_map_page.jsx';
 import SimpleMapPage from './examples/x_simple/simple_map_page.jsx';
+import OptionsMapPage from './examples/x_options/options_map_page.jsx';
 import SimpleHoverMapPage from './examples/x_simple_hover/simple_hover_map_page.jsx';
 import DistanceHoverMapPage from './examples/x_distance_hover/distance_hover_map_page.jsx';
 import EventsMapPage from './examples/x_events/events_map_page.jsx';
@@ -42,6 +43,11 @@ export default class Main extends Component {
       case examples.simple:
         return (
           <SimpleMapPage />
+        );
+
+      case examples.options:
+        return (
+          <OptionsMapPage />
         );
 
       case examples.simple_hover:
