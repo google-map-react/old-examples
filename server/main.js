@@ -99,6 +99,7 @@ Object.keys(routeNames)
   router.route(route)
   .all(cacheMiddleware(config.K_CACHE_MAIN_PAGE_SECONDS))
   .get((req, res) => {
+    console.log('-------EE---', req.path);
     try {
       if (!config.K_IS_PRODUCTION || K_SCRIPT_URL === null) {
         const stats = require('../build/stats.json');

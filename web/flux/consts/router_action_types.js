@@ -1,0 +1,1 @@
+export const DEFAULT_ROUTE = 'DEFAULT_ROUTE';

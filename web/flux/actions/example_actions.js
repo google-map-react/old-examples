@@ -1,7 +1,8 @@
-export default function createExampleActions() {
+import {INIT_EXAMPLE} from 'consts/example_action_types.js';
+
+export function initExampleInfo({title, info, source, next, prev}) {
   return {
-    initExampleInfo({title, info, source, next, prev}) {
-      return {title, info, source, next, prev};
-    }
+    type: INIT_EXAMPLE,
+    value: {title, info, source, next, prev}
   };
 }

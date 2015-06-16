@@ -1,30 +1,14 @@
-import { Store } from 'flummox';
-// import { Map } from 'immutable';
+import {INIT_EXAMPLE} from 'consts/example_action_types.js';
 
-import {serialize, deserialize} from './utils/serialize.js';
+function defaultExampleState() {
+  return { title: '', info: '', source: '', next: '', prev: ''};
+}
 
-export default class ExampleStore extends Store {
-  state = {
-    title: '',
-    info: '',
-    source: '',
-    next: '',
-    prev: ''
-  };
-
-  static serialize = serialize;
-  static deserialize = deserialize;
-
-  constructor({ exampleActions }) {
-    super();
-    this.register(exampleActions.initExampleInfo, this._onInitExampleInfo);
-  }
-
-  _onInitExampleInfo({title, info, source, next, prev}) {
-    this.setState({title, info, source, next, prev});
-  }
-
-  getExampleInfo() {
-    return this.state;
+export default function example(state = defaultExampleState(), action) {
+  switch (action.type) {
+    case INIT_EXAMPLE:
+      return {...state, ...action.value};
+    default:
+      return state;
   }
 }

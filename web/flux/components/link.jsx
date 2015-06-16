@@ -1,12 +1,18 @@
 import React, {PropTypes, Component} from 'react/addons';
 import shouldPureComponentUpdate from 'react-pure-render/function';
 import routeTemplate from 'utils/route_template.js';
-import fluxComponentDecorator from 'components/decorators/flux_component_decorator.js';
-// TODO replace fluxComponentDecorator with import {connect} from 'flummox/connect';
 
+import { bindActionCreators } from 'redux';
+import { connect } from 'redux/react';
+import { gotoLink } from 'actions/link_actions.js';
+
+
+// import fluxComponentDecorator from 'components/decorators/flux_component_decorator.js';
+// TODO replace fluxComponentDecorator with import {connect} from 'flummox/connect';
+/*
 @fluxComponentDecorator({
   connectToStores: {
-    route: (store /*, props*/) => ({
+    route: (store) => ({
       routeFullPath: store.getRouteFullPath(),
       routeParams: store.getRouteParams()
     })
@@ -17,9 +23,12 @@ import fluxComponentDecorator from 'components/decorators/flux_component_decorat
     })
   }
 })
+*/
+@connect(state => state.router)
 export default class Link extends Component {
   static propTypes = {
     onClick: PropTypes.func,
+    dispatch: PropTypes.func,
     onGotoLink: PropTypes.func,
     defaultParams: PropTypes.any,
     params: PropTypes.any,
@@ -60,9 +69,12 @@ export default class Link extends Component {
         this.props.href,
         this.props.defaultParams || {},
         this.props.params || {},
-        (this.props.routeParams && this.props.routeParams.toJS()) || null);
+        (this.props.routeParams && this.props.routeParams) || null);
+
       if (this.props.routeFullPath !== link) {
-        this.props.onGotoLink(link);
+        const {dispatch} = this.props;
+        dispatch(gotoLink(link));
+        // this.props.onGotoLink(link);
       }
 
       event.preventDefault();
@@ -75,7 +87,7 @@ export default class Link extends Component {
 
   render() {
     const {href, defaultParams, params, onClick, routeParams, ...otherProps} = this.props; // eslint-disable-line no-unused-vars
-    const link = this._getEvaluatedLink(href, defaultParams || {}, params || {}, (routeParams && routeParams.toJS()) || null);
+    const link = this._getEvaluatedLink(href, defaultParams || {}, params || {}, (routeParams && routeParams) || null);
 
     return (
       <a onClick={this._onClick} href={link} {...otherProps}>{this.props.children}</a>

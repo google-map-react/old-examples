@@ -1,31 +1,30 @@
-import React from 'react/addons';
+import {Provider, Connector} from 'redux/react';
 
-import AppFlux from 'utils/appflux.js';
-import {FluxComponent} from 'flummox/addons/react';
+import initRedux from './init_redux.js';
+import * as userRoutesActions from 'actions/user_routes.js';
 
 import Main from 'components/main.jsx';
 
-export default function render(options, callback) {
-  return new AppFlux(options, (err, {flux, serializedData}) => {
-    if (err) {
-      setImmediate(() => callback(err, {}));
-      return;
-    }
+// this function called on client and on server
+export default function render({React, ...args}) {
+  return initRedux({userRoutesActions, ...args})
+    .then(
+      redux => ({
+        component:
+          <Provider redux={redux}>
+            {() =>
+              <Connector select={state => ({ router: state.router })}>
+                {({router}) =>
+                  <Main {...router} />}
+              </Connector>
+            }
+          </Provider>,
+        initialState: redux.getState()
+      }),
 
-    const component = (
-      <FluxComponent
-        flux={flux}
-        connectToStores={{
-          route: (store) => ({
-            routeName: store.getRouteName(),
-            routePath: store.getRoutePath(),
-            routeFullPath: store.getRouteFullPath(),
-            routeParams: store.getRouteParams()
-          })
-        }}>
-          <Main />
-      </FluxComponent>
+      err => {
+        console.error(err);
+        throw err;
+      }
     );
-    setImmediate(() => callback(null, {component, serializedData}));
-  });
 }

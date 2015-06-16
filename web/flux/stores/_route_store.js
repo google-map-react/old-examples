@@ -1,4 +1,4 @@
-import { Store } from 'flummox';
+// import { Store } from 'flummox';
 import { Map } from 'immutable';
 
 import {serialize, deserialize} from './utils/serialize.js';
