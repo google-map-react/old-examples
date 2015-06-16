@@ -1,13 +1,14 @@
 import {INIT_EXAMPLE} from 'consts/example_action_types.js';
+import {Map} from 'immutable';
 
 function defaultExampleState() {
-  return { title: '', info: '', source: '', next: '', prev: ''};
+  return new Map({ title: '', info: '', source: '', next: '', prev: ''});
 }
 
-export default function example(state = defaultExampleState(), action) {
-  switch (action.type) {
+export default function example(state = defaultExampleState(), {type: exampleActionType, title, info, source, next, prev}) {
+  switch (exampleActionType) {
     case INIT_EXAMPLE:
-      return {...state, ...action.value};
+      return state.merge({title, info, source, next, prev});
     default:
       return state;
   }

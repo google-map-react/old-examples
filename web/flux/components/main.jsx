@@ -19,10 +19,10 @@ import Page from './page.jsx';
 
 export default class Main extends Component {
   static propTypes = {
-    routeName: PropTypes.string,
-    routePath: PropTypes.string,
-    routeFullPath: PropTypes.string,
-    routeParams: PropTypes.any
+    routeName: PropTypes.string.isRequired,
+    routePath: PropTypes.string.isRequired,
+    routeFullPath: PropTypes.string.isRequired,
+    routeParams: PropTypes.any.isRequired
   }
 
   shouldComponentUpdate = shouldPureComponentUpdate;
@@ -101,7 +101,7 @@ export default class Main extends Component {
 
   _renderPathProps(props) {
     return (
-      <div>routeName: {props.routeName}, routePath: {props.routePath}, routeFullPath: {props.routeFullPath}, routeParams: {props.routeParams.toString()}</div>
+      <div>{/*routeName: {props.routeName}, routePath: {props.routePath}, routeFullPath: {props.routeFullPath}, routeParams: {props.routeParams.toString()} */}</div>
     );
   }
 
@@ -111,7 +111,7 @@ export default class Main extends Component {
     return (
       <Connector select={state => ({ example: state.example })}>
         {({example}) =>
-          <Page {...example}>
+          <Page example={example}>
             {main}
           </Page>}
       </Connector>

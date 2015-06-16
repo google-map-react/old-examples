@@ -7,7 +7,7 @@ require('components/controls/fixed_table/fixed-data-table-ice/dist/fixed-data-ta
 require('./sass/app.sass');
 
 import React from 'react/addons';
-import render from './flux/app.js';
+import render from './flux/render.js';
 
 
 if (typeof window !== 'undefined') {
@@ -20,7 +20,6 @@ if (typeof window !== 'undefined') {
 const initialState = (typeof window !== 'undefined') ? (window.K_SERIALIZED_DATA || undefined) : undefined;
 
 // const serverPath = undefined;
-
 render({React, initialState /*, serverPath*/})
 .then(
   ({component}) => React.render(component, document.getElementById('react_main')),

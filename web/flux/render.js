@@ -13,8 +13,8 @@ export default function render({React, ...args}) {
         component:
           <Provider redux={redux}>
             {() =>
-              <Connector select={state => ({ router: state.router })}>
-                {({router}) =>
+              <Connector select={state => state.router.toJS()}>
+                {(router) =>
                   <Main {...router} />}
               </Connector>
             }

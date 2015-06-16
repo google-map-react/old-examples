@@ -1,6 +1,6 @@
-import routeTemplate from 'utils/route_template.js';
-import utilsText from 'utils/text.js';
-import {SWITCH_LINK} from 'consts/link_action_types.js';
+import routeTemplate from '../utils/route_template.js';
+import utilsText from '../utils/text.js';
+import {SWITCH_LINK} from '../consts/link_action_types.js';
 
 const routeTemplatesCache_ = {};
 

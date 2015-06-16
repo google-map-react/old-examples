@@ -7,24 +7,7 @@ import { connect } from 'redux/react';
 import { gotoLink } from 'actions/link_actions.js';
 
 
-// import fluxComponentDecorator from 'components/decorators/flux_component_decorator.js';
-// TODO replace fluxComponentDecorator with import {connect} from 'flummox/connect';
-/*
-@fluxComponentDecorator({
-  connectToStores: {
-    route: (store) => ({
-      routeFullPath: store.getRouteFullPath(),
-      routeParams: store.getRouteParams()
-    })
-  },
-  injectActions: {
-    route: (actions) => ({
-      onGotoLink: actions.gotoLink
-    })
-  }
-})
-*/
-@connect(state => state.router)
+@connect(state => state.router.toJS())
 export default class Link extends Component {
   static propTypes = {
     onClick: PropTypes.func,

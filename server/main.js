@@ -5,7 +5,15 @@ import dot from 'dot';
 import fs from 'fs';
 
 import uuid from 'node-uuid';
-import {routeNames} from '../web/flux/create_routes.js';
+
+import pick from 'lodash.pick';
+import isString from 'lodash.isstring';
+
+import * as userRoutesActions from '../web/flux/actions/user_routes.js';
+
+const routeNames = pick(userRoutesActions, isString);
+
+// import {routeNames} from '../web/flux/create_routes.js';
 
 /*eslint-disable */
 const configPath = __config + 'config.js';

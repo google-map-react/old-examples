@@ -1,12 +1,12 @@
-import sc from 'consts/index.js';
+import sc from '../consts/index.js';
 
-import {MULTI_ACTION} from 'consts/multi_action_types.js';
+import {MULTI_ACTION} from '../consts/multi_action_types.js';
 
-import exampleDefs, {examples} from 'consts/example_defs.js';
+import exampleDefs, {examples} from '../consts/example_defs.js';
 
 // import any action creators you need to call on onRouteChange
-import { initExampleInfo } from 'actions/example_actions.js';
-import { updateRoute } from 'actions/router_actions.js';
+import { initExampleInfo } from './example_actions.js';
+import { updateRoute } from './router_actions.js';
 
 // -----------------------------------------------------------------------
 // ROUTING TABLE AND CONSTANTS -------------------------------------------
