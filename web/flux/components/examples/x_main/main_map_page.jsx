@@ -1,11 +1,12 @@
 import React, {PropTypes, Component} from 'react/addons';
 import shouldPureComponentUpdate from 'react-pure-render/function';
 
-import {FluxComponent} from 'flummox/addons/react';
-
 import MainMapLayout from './main_map_layout.jsx';
 import IceTable from 'components/controls/fixed_table_examples/ice_table.jsx';
 import MainMapBlock from './main_map_block.jsx';
+
+import {Connector} from 'redux/react';
+import { bindActionCreators } from 'redux';
 
 export default class MainMapPage extends Component {
   static propTypes = {

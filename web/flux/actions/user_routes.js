@@ -6,6 +6,7 @@ import exampleDefs, {examples} from '../consts/example_defs.js';
 
 // import any action creators you need to call on onRouteChange
 import { initExampleInfo } from './example_actions.js';
+import {query} from './map_actions.js';
 import { updateRoute } from './router_actions.js';
 
 // -----------------------------------------------------------------------
@@ -24,6 +25,12 @@ const routes_ = {
   ],
 
   [K_MAP_ROUTE]: [
+    ({routeParams}) => query({
+      count: 1000, seed: 7, test: false, latVarM: 2, lngVarM: 4.5,
+      typeGetter: routeParams.example === examples.balderdash ? i => i % 6 : i => i % 2,
+      cacheBreaker: routeParams.example === examples.balderdash ? 6 : 2
+    }),
+
     ({routeParams}) => initExampleInfo({title: '', info: '', source: '', next: '', prev: '', ...exampleDefs[routeParams.example]})
   ],
 
