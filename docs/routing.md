@@ -41,6 +41,8 @@ Next steps are simple, as [like flux work](https://github.com/istarkov/google-ma
 just subscribe on `router store` changes, 
 and use [simple switch-case](https://github.com/istarkov/google-map-react-examples/blob/master/web/flux/components/main.jsx#L78) or create your simple `<Router handler={}` approach. 
 
+The rest is to write (<Link />)[https://github.com/istarkov/google-map-react-examples/blob/master/web/flux/components/link.jsx] react component. 
+
 
       
       
