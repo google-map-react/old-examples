@@ -1,7 +1,7 @@
 import {
   QUERY_MAP,
-  TABLE_VISIBLE_ROWS_CHANGE_MAP,
   CHANGE_BOUNDS_MAP,
+  TABLE_VISIBLE_ROWS_CHANGE_MAP,
   TABLE_HOVERED_ROWS_INDEX_CHANGE_MAP,
   MARKER_HOVER_INDEX_CHANGE_MAP,
   SHOW_BALLON_MAP} from '../consts/map_actions_types.js';
@@ -21,6 +21,7 @@ function ptInRect(pt, rect) {
 // use rbush https://github.com/mourner/rbush if you have really big amount of points
 function calcFilteredAndSortedMarkers(data, mapInfo) {
   const marginBounds = mapInfo && mapInfo.get('marginBounds');
+
   if (!data || !marginBounds) {
     return new List();
   }
@@ -32,6 +33,7 @@ function calcFilteredAndSortedMarkers(data, mapInfo) {
 function defaultMapState() {
   return immutable.fromJS({
     data: [],
+    dataFiltered: [],
 
     mapInfo: {
       center: [59.938043, 30.337157],
@@ -58,10 +60,38 @@ export default function map(state = defaultMapState(), {type: exampleActionType,
   switch (exampleActionType) {
     case QUERY_MAP:
       const {markersData} = data;
-      return state.set('data', markersData);
+      return state
+        .set('data', markersData)
+        .update(s => s.set('dataFiltered', calcFilteredAndSortedMarkers(s.get('data'), s.get('mapInfo'))));
+
     case CHANGE_BOUNDS_MAP:
       const {center, zoom, bounds, marginBounds} = data;
-      return state.set('mapInfo', new Map({center, zoom, bounds, marginBounds}));
+      return state
+        .update('mapInfo', mapInfo => mapInfo.merge({center, zoom, bounds, marginBounds}))
+        .set('openBalloonIndex', -1)
+        .update(s => s.set('dataFiltered', calcFilteredAndSortedMarkers(s.get('data'), s.get('mapInfo'))));
+
+    case TABLE_VISIBLE_ROWS_CHANGE_MAP:
+      const {visibleRowFirst, visibleRowLast, maxVisibleRows} = data;
+      return state
+        .update('tableRowsInfo', tableRowsInfo => tableRowsInfo.merge({visibleRowFirst, visibleRowLast, maxVisibleRows}))
+        .set('openBalloonIndex', -1);
+
+    case TABLE_HOVERED_ROWS_INDEX_CHANGE_MAP:
+      const {hoveredRowIndex} = data;
+      return state
+        .update('tableRowsInfo', tableRowsInfo => tableRowsInfo.merge({hoveredRowIndex}));
+
+    case MARKER_HOVER_INDEX_CHANGE_MAP:
+      const {hoverMarkerIndex} = data;
+      return state
+        .set('hoverMarkerIndex', hoverMarkerIndex);
+
+    case SHOW_BALLON_MAP:
+      const {openBalloonIndex} = data;
+      return state
+        .set('openBalloonIndex', openBalloonIndex === state.get('openBalloonIndex') ? -1 : openBalloonIndex);
+
     default:
       return state;
   }

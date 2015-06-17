@@ -8,7 +8,7 @@ import {
   MARKER_HOVER_INDEX_CHANGE_MAP,
   SHOW_BALLON_MAP} from '../consts/map_actions_types.js';
 
-import genMarkersData from 'components/examples/data/gen_markers_data.js';
+import genMarkersData from '../components/examples/data/gen_markers_data.js';
 
 // to emulate server async call
 const getDataAsync = (ms = 0, data = null) => new Promise(r => setTimeout(() => r(data), ms));
@@ -45,17 +45,29 @@ export function changeBounds({center, zoom, bounds, marginBounds}) {
 }
 
 export function tableVisibleRowsChange(params) {
-  return asyncActions.tableVisibleRowsChange(params);
+  return {
+    types: [null, TABLE_VISIBLE_ROWS_CHANGE_MAP, null],
+    promise: asyncActions.tableVisibleRowsChange(params)
+  };
 }
 
-export function tableHoveredRowIndexChange(index) {
-  return index;
+export function tableHoveredRowIndexChange(hoveredRowIndex) {
+  return {
+    type: TABLE_HOVERED_ROWS_INDEX_CHANGE_MAP,
+    hoveredRowIndex
+  };
 }
 
-export function markerHoverIndexChange(index) {
-  return index;
+export function markerHoverIndexChange(hoverMarkerIndex) {
+  return {
+    type: MARKER_HOVER_INDEX_CHANGE_MAP,
+    hoverMarkerIndex
+  };
 }
 
-export function showBallon(index) {
-  return index;
+export function showBallon(openBalloonIndex) {
+  return {
+    type: SHOW_BALLON_MAP,
+    openBalloonIndex
+  };
 }

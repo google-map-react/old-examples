@@ -9,6 +9,8 @@ import {getScale, getRealFromTo} from '../helpers/calc_markers_visibility.js';
 import markerDescriptions from '../constants/marker_descriptions.js';
 import {customDistanceToMouse} from '../helpers/custom_distance.js';
 
+import {List} from 'immutable';
+
 const K_MARGIN_TOP = 30;
 const K_MARGIN_RIGHT = 30;
 const K_MARGIN_BOTTOM = 30;
@@ -35,7 +37,7 @@ export default class MainMapBlock extends Component {
   }
 
   static defaultProps = {
-    center: [59.744465, 30.042834],
+    center: new List([59.744465, 30.042834]),
     zoom: 10,
     visibleRowFirst: -1,
     visibleRowLast: -1,

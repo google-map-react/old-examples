@@ -4,9 +4,7 @@ import * as routeNames from 'actions/user_routes.js';
 import {examples} from 'consts/example_defs.js';
 import {Connector} from 'redux/react';
 
-/*
 import MainMapPage from './examples/x_main/main_map_page.jsx';
-*/
 
 import SimpleMapPage from './examples/x_simple/simple_map_page.jsx';
 import OptionsMapPage from './examples/x_options/options_map_page.jsx';
@@ -32,7 +30,7 @@ export default class Main extends Component {
 
   _selectExample(exampleName, props) {
     switch (exampleName) {
-      /*
+
       case examples.main:
         return (
           <MainMapPage />
@@ -42,7 +40,7 @@ export default class Main extends Component {
         return (
           <MainMapPage layout="R" />
         );
-      */
+
       case examples.simple:
         return (
           <SimpleMapPage />
