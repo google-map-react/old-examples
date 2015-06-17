@@ -1,7 +1,7 @@
 #google-map-react examples
-This project is isomorphic flummox app with [google-map-react](https://github.com/istarkov/google-map-react) control examples.
-It uses modified [page.js](https://visionmedia.github.io/page.js/) for routing.
+This project is isomorphic ~~Flummox~~ [redux](https://github.com/gaearon/redux) app with [google-map-react](https://github.com/istarkov/google-map-react) control examples.
 
+It also uses [non-standard approach](https://github.com/istarkov/google-map-react-examples/blob/master/docs/routing.md) for routing.
 
 ---
 
