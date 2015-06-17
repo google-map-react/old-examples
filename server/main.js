@@ -20,25 +20,25 @@ const configPath = __config + 'config.js';
 const config = require(configPath);
 /*eslint-enable */
 
-let _render = null;
+let isomorphicRender_ = null;
 
-function getRender() {
+function getIsomorphicRender() {
   if (!config.K_USE_PRERENDER) {
     return null;
   }
 
-  if (_render) return _render;
+  if (isomorphicRender_) return isomorphicRender_;
 
   if (__DEV__) {
-    _render = require('../build/prerender/main.js');
+    isomorphicRender_ = require('../build/prerender/main.js');
   } else {
     try {
-      _render = require('../build/prerender/main.js');
+      isomorphicRender_ = require('../build/prerender/main.js');
     } catch (e) {
       console.error(e); // eslint-disable-line no-console
     }
   }
-  return _render;
+  return isomorphicRender_;
 }
 
 let K_SCRIPT_COMMONS_URL = null;
@@ -107,7 +107,6 @@ Object.keys(routeNames)
   router.route(route)
   .all(cacheMiddleware(config.K_CACHE_MAIN_PAGE_SECONDS))
   .get((req, res) => {
-    console.log('-------EE---', req.path);
     try {
       if (!config.K_IS_PRODUCTION || K_SCRIPT_URL === null) {
         const stats = require('../build/stats.json');
@@ -123,24 +122,20 @@ Object.keys(routeNames)
         indexTemplate = dot.template(indexHtmlContent);
       }
 
-      const render = getRender();
-      if (render) {
-        render({
-          startPath: req.path,
-          dispatch: false,
-          serialize: true
-        },
-        (err, {component, serializedData}) => {
-          if (err) {
-            console.error(err); // eslint-disable-line no-console
-            res.status(500).send(err.toString());
-            return;
-          }
-
-          const html = React.renderToString(component);
-          const content = getContent(indexTemplate, config, req, html, JSON.stringify(serializedData));
-          res.send(content);
-        });
+      const isomorphicRender = getIsomorphicRender();
+      if (isomorphicRender) {
+        isomorphicRender({isClient: typeof window !== 'undefined', serverPath: req.path})
+          .then(
+            ({html, initialState}) => {
+              const content = getContent(indexTemplate, config, req, html, JSON.stringify(initialState));
+              res.send(content);
+            },
+            (err) => {
+              console.error(err); // eslint-disable-line no-console
+              res.status(500).send(err.toString());
+              return;
+            }
+          );
       } else {
         const content = getContent(indexTemplate, config, req, '', 'null');
         res.send(content);

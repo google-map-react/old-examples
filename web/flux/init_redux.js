@@ -28,9 +28,9 @@ export default function initRedux({initialState, serverPath, userRoutesActions})
       store,
       getState => [
         thunkMiddleware(getState),
+        multiActionMiddleware({wait: isServerCall}), // wait multiple actions to complete or not
         promiseMiddleware(),
-        callFnMiddleware(action => (action && action.type === SWITCH_LINK && gotoRoute(action.url))), // helper for <Link /> component
-        multiActionMiddleware({wait: isServerCall}) // wait multiple actions to complete or not
+        callFnMiddleware(action => (action && action.type === SWITCH_LINK && gotoRoute(action.url))) // helper for <Link /> component
       ]
     );
 

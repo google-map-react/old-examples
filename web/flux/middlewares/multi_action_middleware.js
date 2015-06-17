@@ -10,11 +10,12 @@ export default function multiActionMiddleware({wait}) {
         }
 
         const actionResults = action.actions.map(a => a(action.params));
+
         if (wait) {
           return Promise.all(actionResults.map(act => (act && act.promise) || act)) // support promise middleware interface
             .then(
-              resolvedActions => {
-                resolvedActions.forEach(rAction => next(rAction));
+              resolvedActions => { // resolvedActions unused
+                return actionResults.map(a => next(a));
               },
               err => {
                 throw new Error(err);

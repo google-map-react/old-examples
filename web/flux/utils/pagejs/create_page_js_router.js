@@ -16,7 +16,8 @@ export default function createPageJsRouter(serverPath) {
         });
       });
 
-      if (serverPath === undefined || serverPath === null) {
+      // (__DEV__ && typeof window !== 'undefined') easier to test server rendering on the client
+      if (serverPath === undefined || serverPath === null || (__DEV__ && typeof window !== 'undefined')) {
         page.start({dispatch: initialRouteDispatch, click: false});
       } else {
         page.start({dispatch: false, popstate: false, click: false});

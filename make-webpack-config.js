@@ -7,7 +7,7 @@ let loadersByExtension = require('./config/loadersByExtension');
 const webDir = 'web';
 
 function reactEntry(options) {
-  return (options.prerender ? `./${webDir}/flux/app.js` : `./${webDir}/app.js`);
+  return (options.prerender ? `./${webDir}/isomorphic_render.js` : `./${webDir}/app.js`);
 }
 
 module.exports = (options) => {

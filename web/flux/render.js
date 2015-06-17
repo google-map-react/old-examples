@@ -19,11 +19,12 @@ export default function render({React, ...args}) {
               </Connector>
             }
           </Provider>,
+
         initialState: redux.getState()
       }),
 
       err => {
-        console.error(err);
+        console.error(err); // eslint-disable-line no-console
         throw err;
       }
     );

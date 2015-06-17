@@ -32,7 +32,7 @@ const routes_ = {
   ]
 };
 
-// onRouteChange calback is just an action (use any router you like, TODO add @koistya router)
+// onRouteChange calback is just an this action (use any router you like, TODO add @koistya hashchange router)
 // params for K_MAP_ROUTE = '/map/:example/:zoom?' and real route `/map/simple` will be
 // {routeName: "K_MAP_ROUTE", routePath: "/map/:example/:zoom?",
 //  routeParams: {example: "simple", zoom: undefined}, routeFullPath: "/map/simple"}
