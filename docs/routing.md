@@ -35,7 +35,10 @@ For client-server solution router must expose two functions with (*plus-minus*) 
 
 
 Then you can [bind router callback to flux action](https://github.com/istarkov/google-map-react-examples/blob/master/web/flux/init_redux.js#L40), 
-and create [simple flux store](https://github.com/istarkov/google-map-react-examples/blob/master/web/flux/stores/router_store.js) for router data  
+and create [simple flux store](https://github.com/istarkov/google-map-react-examples/blob/master/web/flux/stores/router_store.js) for router data.
+
+[flux routeChange action](https://github.com/istarkov/google-map-react-examples/blob/master/web/flux/actions/user_routes.js#L22-L57) calls other actions (sync and async) in array, look at [redux MULTI_ACTION middleware](https://github.com/istarkov/google-map-react-examples/blob/master/web/flux/middlewares/multi_action_middleware.js).    
+This middleware and array of `sync-async actions calls` allows me to wait all route actions to complete on `server-side`.
   
 Next steps are simple, as [like flux work](https://github.com/istarkov/google-map-react-examples/blob/master/web/flux/render.js#L16) 
 just subscribe on `router store` changes, 
