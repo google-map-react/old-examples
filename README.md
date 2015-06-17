@@ -1,10 +1,11 @@
 #google-map-react examples
 This project is isomorphic ~~Flummox~~ [redux](https://github.com/gaearon/redux) app with [google-map-react](https://github.com/istarkov/google-map-react) control examples.
 
-It also uses [non-standard approach](https://github.com/istarkov/google-map-react-examples/blob/master/docs/routing.md) for routing.
+It also uses [non-standard approach](https://github.com/istarkov/google-map-react-examples/blob/master/docs/routing.md) for routing.   
+Other docs.
+* [isomorphic.md](https://github.com/istarkov/google-map-react-examples/blob/master/docs/isomorphic.md)
 
 ---
-
 
 ##Install
 I highly recommend to use docker for development.
