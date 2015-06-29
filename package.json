@@ -25,7 +25,7 @@
     "faker": "^2.1.5",
     "file-loader": "^0.8.4",
     "fs-loader": "0.0.1",
-    "google-map-react": "^0.3.3",
+    "google-map-react": "^0.4.0",
     "html-hint": "^0.0.2",
     "html-loader": "^0.2.2",
     "immutable": "^3.7.3",
