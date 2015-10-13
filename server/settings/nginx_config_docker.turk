@@ -25,19 +25,19 @@ server {
     listen 80 default_server;
     large_client_header_buffers 4 256k;
 
-    location ~ ^/google-map-react/data/(images/.*)$ {
+    location ~ ^/data/(images/.*)$ {
       alias /home/ice/ext/google-map-react-examples/build/public/../../data/$1;
       access_log off;
       expires 90d;
     }
 
-    location ~ ^/google-map-react/assets\/(images/.*)$ {
+    location ~ ^/assets\/(images/.*)$ {
       alias /home/ice/ext/google-map-react-examples/build/public/assets/$1;
       access_log off;
       expires 90d;
     }
 
-    location ~ ^/google-map-react/w_assets/(.*)$ {
+    location ~ ^/w_assets/(.*)$ {
       alias /home/ice/ext/google-map-react-examples/build/public/$1;
       access_log off;
       expires 90d;

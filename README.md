@@ -67,7 +67,7 @@ I highly recommend to use docker for development.
 
 * Run production build (*isomorphic*)   
   ```bash
-  ./docker_run --production
+  ./docker_run.sh --production
   ```
   *run browser and type* [http://localhost:3080/map/main](http://localhost:3000/map/main)
 
