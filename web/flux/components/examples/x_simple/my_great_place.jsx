@@ -12,10 +12,6 @@ export default class MyGreatPlace extends Component {
 
   shouldComponentUpdate = shouldPureComponentUpdate;
 
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     return (
        <div style={greatPlaceStyle}>
