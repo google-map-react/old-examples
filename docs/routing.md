@@ -1,12 +1,12 @@
-##Routing approach
+## Routing approach
 
-###IMHO:
+### IMHO:
 Where is no need in 90% of web apps to use reach api routing libraries.
 
-###SOLUTION IN SHORT:
+### SOLUTION IN SHORT:
 Bind `onRouteChangeCallback` on `flux action`.
 
-###SOLUTION WITH EXAMPLES:
+### SOLUTION WITH EXAMPLES:
 For client-server solution router must expose two functions with (*plus-minus*) next interfaces
   1. `gotoRoute(url)` for client side
   2. `router(routePathes, initialRouteDispatch, onRouteChangeCallback)` for server and client side   

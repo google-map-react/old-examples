@@ -1,4 +1,4 @@
-#google-map-react examples
+# google-map-react examples
 This project is isomorphic ~~Flummox~~ [redux](https://github.com/gaearon/redux) app with [google-map-react](https://github.com/istarkov/google-map-react) control examples.
 
 It also uses [non-standard approach](https://github.com/istarkov/google-map-react-examples/blob/master/docs/routing.md) for routing.   
@@ -7,10 +7,10 @@ Other docs.
 
 ---
 
-##Install
+## Install
 I highly recommend to use docker for development.
 
-###For non docker users
+### For non docker users
 * Install   
   ```bash
   npm install  
@@ -49,7 +49,7 @@ I highly recommend to use docker for development.
 ---
 
 
-###For docker users:
+### For docker users:
 * Install   
   ```bash
   ./docker/base_image/build.sh
@@ -82,7 +82,7 @@ I highly recommend to use docker for development.
 ---
 
 
-#For Docker OSX users:
+# For Docker OSX users:
 * install watchman   
   ```bash
   brew install watchman
@@ -105,7 +105,7 @@ I highly recommend to use docker for development.
 * install boot2docker with nfs support (vboxfs is really-really slow) 
 
 
-#gh-pages generation
+# gh-pages generation
 ```
 ./docker_run.sh --serverpath '/google-map-react' --production
 denter gmr
