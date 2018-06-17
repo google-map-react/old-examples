@@ -12,7 +12,6 @@ export default function isomorphicRender({isClient, serverPath}) {
     if (__DEV__) {
       window.React = React; // for devtools
     }
-    React.initializeTouchEvents(true); // i don't remeber do i need this :-)
 
     const initialState = window.K_SERIALIZED_DATA && deserialize(window.K_SERIALIZED_DATA) || undefined;
 
